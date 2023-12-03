@@ -4929,3 +4929,15 @@ Make sure 'VersionWidget_C' has been compiled for  Set Result
 [2023.12.03-07.41.33:121][576]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
 [2023.12.03-07.41.33:123][576]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=21
 [2023.12.03-07.41.33:135][576]LogUObjectHash: Compacting FUObjectHashTables data took   2.19ms
+[2023.12.03-07.41.58:798][221]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2023.12.03-07.41.58:807][221]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.03-07.41.58:857][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Engine/CW_GameInstance" FILE="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/Blueprints/Engine/CW_GameInstance.uasset" SILENT=true
+[2023.12.03-07.41.59:046][221]LogSavePackage: Moving output files for package: /Game/Blueprints/Engine/CW_GameInstance
+[2023.12.03-07.41.59:048][221]LogSavePackage: Moving 'C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Saved/CW_GameInstance8C9F6CBA477705BAFD08E9B4C5AA3766.tmp' to 'C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/Blueprints/Engine/CW_GameInstance.uasset'
+[2023.12.03-07.41.59:059][221]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/UI/Pages/PageLogin" FILE="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/UI/Pages/PageLogin.uasset" SILENT=true
+[2023.12.03-07.41.59:128][221]LogSavePackage: Moving output files for package: /Game/UI/Pages/PageLogin
+[2023.12.03-07.41.59:129][221]LogSavePackage: Moving 'C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Saved/PageLogin51F342F54B51D16790576D9FFCD93539.tmp' to 'C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/UI/Pages/PageLogin.uasset'
+[2023.12.03-07.41.59:144][221]LogFileHelpers: InternalPromptForCheckoutAndSave took 336 ms (total: 1.05 sec)
+[2023.12.03-07.41.59:157][221]AssetCheck: New page: Asset Save: multiple assets
+[2023.12.03-07.41.59:157][221]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Engine/CW_GameInstance.CW_GameInstance
+[2023.12.03-07.41.59:157][221]LogContentValidation: Display: Validating /Script/UMGEditor.WidgetBlueprint /Game/UI/Pages/PageLogin.PageLogin
