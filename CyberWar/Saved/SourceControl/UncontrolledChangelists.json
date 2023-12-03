@@ -10,7 +10,13 @@
 				"C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/Blueprints/Online/CW_Login_GameMode.uasset",
 				"C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/Archetypes/Online/ServerManager.uasset",
 				"C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/Maps/Testing.umap",
-				"C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/Blueprints/Player/CW_PlayerState.uasset"
+				"C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/Blueprints/Player/CW_PlayerState.uasset",
+				"C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/Splash/Splash.uasset",
+				"C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/UI/Common/VersionWidget.uasset",
+				"C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/UI/Common/icons/status_cross.uasset",
+				"C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/UI/Common/icons/mainmenu_cross.uasset",
+				"C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/UI/Common/icons/status_tick.uasset",
+				"C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/UI/Common/icons/mainmenu_tick.uasset"
 			]
 		}
 	]
