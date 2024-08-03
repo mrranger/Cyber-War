@@ -1,0 +1,1491 @@
+﻿Log file open, 12/02/23 12:22:35
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogProfilingDebugging: Loading WinPixEventRuntime.dll for PIX profiling (from ../../../Engine/Binaries/ThirdParty/Windows/WinPixEventRuntime/x64).
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogWindows: Started CrashReportClient (pid=32892)
+LogWindows: Custom abort handler registered for crash reporting.
+LogInit: Display: Running engine for game: CyberWar
+LogCore: UnrealTraceServer: Trace store launch successful
+LogTrace: Initializing trace...
+LogCore: Display: Requested channels: 'cpu,gpu,frame,log,bookmark,screenshot,region'
+LogTrace: Finished trace initialization.
+LogCsvProfiler: Display: Metadata set : platform="Windows"
+LogCsvProfiler: Display: Metadata set : config="Development"
+LogCsvProfiler: Display: Metadata set : buildversion="++UE5+Release-5.3-CL-29314046"
+LogCsvProfiler: Display: Metadata set : engineversion="5.3.2-29314046+++UE5+Release-5.3"
+LogCsvProfiler: Display: Metadata set : os="Windows 10 (22H2) [10.0.19045.3693] "
+LogCsvProfiler: Display: Metadata set : cpu="GenuineIntel|Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz"
+LogCsvProfiler: Display: Metadata set : pgoenabled="0"
+LogCsvProfiler: Display: Metadata set : pgoprofilingenabled="0"
+LogCsvProfiler: Display: Metadata set : ltoenabled="0"
+LogCsvProfiler: Display: Metadata set : asan="0"
+LogCsvProfiler: Display: Metadata set : commandline="" C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\CyberWar.uproject Testing -server -log -port=17777""
+LogCsvProfiler: Display: Metadata set : loginid="73997c6546a0e7790719e59faef4d667"
+LogCsvProfiler: Display: Metadata set : llm="0"
+LogStats: Stats thread started at 0.412411
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogInit: Session CrashGUID >====================================================
+         Session CrashGUID >   UECC-Windows-B1AE7B9C492A901D408E2397871CA359
+         Session CrashGUID >====================================================
+LogConfig: Display: Loading IOS ini files took 0.06 seconds
+LogConfig: Display: Loading Android ini files took 0.06 seconds
+LogPluginManager: Mounting Engine plugin Bridge
+LogConfig: Display: Loading Linux ini files took 0.09 seconds
+LogConfig: Display: Loading LinuxArm64 ini files took 0.09 seconds
+LogPluginManager: Mounting Engine plugin EnhancedInput
+LogPluginManager: Found config from plugin[EnhancedInput] Input
+LogPluginManager: Mounting Engine plugin FastBuildController
+LogPluginManager: Mounting Engine plugin MeshPainting
+LogPluginManager: Mounting Engine plugin TraceUtilities
+LogPluginManager: Mounting Engine plugin XGEController
+LogPluginManager: Mounting Engine plugin Paper2D
+LogPluginManager: Mounting Engine plugin AISupport
+LogPluginManager: Mounting Engine plugin EnvironmentQueryEditor
+LogPluginManager: Mounting Engine plugin ACLPlugin
+LogPluginManager: Mounting Engine plugin AnimationData
+LogPluginManager: Mounting Engine plugin AnimationModifierLibrary
+LogPluginManager: Mounting Engine plugin BlendSpaceMotionAnalysis
+LogPluginManager: Mounting Engine plugin ControlRig
+LogPluginManager: Mounting Engine plugin ControlRigSpline
+LogPluginManager: Mounting Engine plugin IKRig
+LogPluginManager: Mounting Engine plugin CameraShakePreviewer
+LogPluginManager: Mounting Engine plugin GameplayCameras
+LogPluginManager: Mounting Engine plugin OodleNetwork
+LogPluginManager: Mounting Engine plugin AnimationSharing
+LogPluginManager: Mounting Engine plugin CLionSourceCodeAccess
+LogPluginManager: Mounting Engine plugin DumpGPUServices
+LogPluginManager: Mounting Engine plugin GitSourceControl
+LogPluginManager: Mounting Engine plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting Engine plugin N10XSourceCodeAccess
+LogPluginManager: Mounting Engine plugin NullSourceCodeAccess
+LogPluginManager: Mounting Engine plugin PerforceSourceControl
+LogPluginManager: Mounting Engine plugin PixWinPlugin
+LogPluginManager: Mounting Engine plugin PlasticSourceControl
+LogPluginManager: Mounting Engine plugin PluginUtils
+LogPluginManager: Mounting Engine plugin PropertyAccessNode
+LogPluginManager: Mounting Engine plugin RenderDocPlugin
+LogPluginManager: Mounting Engine plugin RiderSourceCodeAccess
+LogPluginManager: Mounting Engine plugin SubversionSourceControl
+LogPluginManager: Mounting Engine plugin TextureFormatOodle
+LogPluginManager: Mounting Engine plugin TraceDataFilters
+LogPluginManager: Mounting Engine plugin UObjectPlugin
+LogPluginManager: Mounting Engine plugin VisualStudioSourceCodeAccess
+LogConfig: Display: Loading Mac ini files took 0.06 seconds
+LogPluginManager: Mounting Engine plugin AssetManagerEditor
+LogPluginManager: Mounting Engine plugin BlueprintHeaderView
+LogPluginManager: Mounting Engine plugin ChangelistReview
+LogPluginManager: Mounting Engine plugin CryptoKeys
+LogPluginManager: Mounting Engine plugin CurveEditorTools
+LogPluginManager: Mounting Engine plugin DataValidation
+LogPluginManager: Mounting Engine plugin EditorDebugTools
+LogPluginManager: Mounting Engine plugin EditorScriptingUtilities
+LogPluginManager: Mounting Engine plugin EngineAssetDefinitions
+LogPluginManager: Mounting Engine plugin FacialAnimation
+LogConfig: Display: Loading TVOS ini files took 0.07 seconds
+LogPluginManager: Mounting Engine plugin GameplayTagsEditor
+LogPluginManager: Mounting Engine plugin GeometryMode
+LogPluginManager: Mounting Engine plugin MacGraphicsSwitching
+LogPluginManager: Mounting Engine plugin MaterialAnalyzer
+LogPluginManager: Mounting Engine plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting Engine plugin PluginBrowser
+LogPluginManager: Mounting Engine plugin SequencerAnimTools
+LogPluginManager: Mounting Engine plugin SpeedTreeImporter
+LogPluginManager: Mounting Engine plugin UVEditor
+LogPluginManager: Mounting Engine plugin WorldPartitionHLODUtilities
+LogPluginManager: Mounting Engine plugin DatasmithContent
+LogPluginManager: Mounting Engine plugin GLTFExporter
+LogPluginManager: Mounting Engine plugin VariantManager
+LogPluginManager: Mounting Engine plugin VariantManagerContent
+LogPluginManager: Mounting Engine plugin AutomationUtils
+LogPluginManager: Mounting Engine plugin BackChannel
+LogPluginManager: Mounting Engine plugin ChaosCaching
+LogPluginManager: Mounting Engine plugin ChaosCloth
+LogPluginManager: Mounting Engine plugin ChaosClothEditor
+LogPluginManager: Mounting Engine plugin ChaosEditor
+LogPluginManager: Mounting Engine plugin ChaosNiagara
+LogPluginManager: Mounting Engine plugin ChaosSolverPlugin
+LogPluginManager: Mounting Engine plugin ChaosUserDataPT
+LogPluginManager: Mounting Engine plugin CharacterAI
+LogPluginManager: Mounting Engine plugin Dataflow
+LogPluginManager: Mounting Engine plugin Fracture
+LogPluginManager: Mounting Engine plugin FullBodyIK
+LogPluginManager: Mounting Engine plugin GeometryCollectionPlugin
+LogPluginManager: Mounting Engine plugin LocalizableMessage
+LogPluginManager: Mounting Engine plugin MeshModelingToolsetExp
+LogPluginManager: Mounting Engine plugin OpenImageDenoise
+LogPluginManager: Mounting Engine plugin PlanarCut
+LogPluginManager: Mounting Engine plugin PlatformCrypto
+LogPluginManager: Mounting Engine plugin ProxyLODPlugin
+LogPluginManager: Mounting Engine plugin PythonScriptPlugin
+LogPluginManager: Mounting Engine plugin SkeletalReduction
+LogPluginManager: Mounting Engine plugin StructUtils
+LogPluginManager: Mounting Engine plugin ToolPresets
+LogConfig: Display: Loading VulkanPC ini files took 0.05 seconds
+LogPluginManager: Mounting Engine plugin Niagara
+LogConfig: Display: Loading Unix ini files took 0.07 seconds
+LogPluginManager: Mounting Engine plugin AlembicImporter
+LogPluginManager: Mounting Engine plugin InterchangeEditor
+LogPluginManager: Mounting Engine plugin Interchange
+LogPluginManager: Mounting Engine plugin LowEntryExtStdLib
+LogPluginManager: Mounting Engine plugin LowEntrySocketConnection
+LogPluginManager: Mounting Engine plugin VaRest
+LogPluginManager: Mounting Engine plugin AvfMedia
+LogPluginManager: Mounting Engine plugin ImgMedia
+LogPluginManager: Mounting Engine plugin MediaCompositing
+LogPluginManager: Mounting Engine plugin MediaPlate
+LogPluginManager: Mounting Engine plugin MediaPlayerEditor
+LogPluginManager: Mounting Engine plugin WebMMedia
+LogPluginManager: Mounting Engine plugin WmfMedia
+LogPluginManager: Mounting Engine plugin TcpMessaging
+LogPluginManager: Mounting Engine plugin UdpMessaging
+LogPluginManager: Mounting Engine plugin ActorSequence
+LogPluginManager: Mounting Engine plugin LevelSequenceEditor
+LogPluginManager: Mounting Engine plugin SequencerScripting
+LogPluginManager: Mounting Engine plugin TemplateSequence
+LogPluginManager: Mounting Engine plugin OnlineBase
+LogPluginManager: Mounting Engine plugin OnlineFramework
+LogPluginManager: Mounting Engine plugin OnlineServices
+LogPluginManager: Mounting Engine plugin OnlineSubsystem
+LogPluginManager: Mounting Engine plugin OnlineSubsystemUtils
+LogPluginManager: Mounting Engine plugin LauncherChunkInstaller
+LogPluginManager: Mounting Engine plugin ActorLayerUtilities
+LogPluginManager: Mounting Engine plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin AndroidFileServer
+LogPluginManager: Mounting Engine plugin AppleImageUtils
+LogPluginManager: Mounting Engine plugin ArchVisCharacter
+LogPluginManager: Mounting Engine plugin AssetTags
+LogPluginManager: Mounting Engine plugin AudioCapture
+LogPluginManager: Mounting Engine plugin AudioSynesthesia
+LogPluginManager: Mounting Engine plugin AudioWidgets
+LogPluginManager: Mounting Engine plugin CableComponent
+LogPluginManager: Mounting Engine plugin ChunkDownloader
+LogPluginManager: Mounting Engine plugin CustomMeshComponent
+LogPluginManager: Mounting Engine plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin GeometryCache
+LogPluginManager: Mounting Engine plugin GeometryProcessing
+LogPluginManager: Mounting Engine plugin GooglePAD
+LogPluginManager: Mounting Engine plugin InputDebugging
+LogPluginManager: Found config from plugin[InputDebugging] Input
+LogPluginManager: Mounting Engine plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin MeshModelingToolset
+LogPluginManager: Mounting Engine plugin Metasound
+LogPluginManager: Mounting Engine plugin MsQuic
+LogPluginManager: Mounting Engine plugin ProceduralMeshComponent
+LogPluginManager: Mounting Engine plugin PropertyAccessEditor
+LogConfig: Display: Loading Windows ini files took 0.07 seconds
+LogPluginManager: Mounting Engine plugin ResonanceAudio
+LogPluginManager: Mounting Engine plugin RigVM
+LogPluginManager: Mounting Engine plugin SignificanceManager
+LogPluginManager: Mounting Engine plugin SoundFields
+LogPluginManager: Mounting Engine plugin Synthesis
+LogPluginManager: Mounting Engine plugin WaveTable
+LogPluginManager: Mounting Engine plugin WebMMoviePlayer
+LogPluginManager: Mounting Engine plugin WindowsDeviceProfileSelector
+LogPluginManager: Mounting Engine plugin WindowsMoviePlayer
+LogPluginManager: Mounting Engine plugin InterchangeTests
+LogPluginManager: Mounting Engine plugin Takes
+LogPluginManager: Mounting Engine plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting Engine plugin ContentBrowserFileDataSource
+LogPluginManager: Mounting Engine plugin PortableObjectFileDataSource
+LogPluginManager: Mounting Engine plugin LightMixer
+LogPluginManager: Mounting Engine plugin ObjectMixer
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Bridge/Content/' mounted to '/Bridge/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/TraceUtilities/Content/' mounted to '/TraceUtilities/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/2D/Paper2D/Content/' mounted to '/Paper2D/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ACLPlugin/Content/' mounted to '/ACLPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRig/Content/' mounted to '/ControlRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/ControlRigSpline/Content/' mounted to '/ControlRigSpline/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Animation/IKRig/Content/' mounted to '/IKRig/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Developer/AnimationSharing/Content/' mounted to '/AnimationSharing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/BlueprintHeaderView/Content/' mounted to '/BlueprintHeaderView/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/GeometryMode/Content/' mounted to '/GeometryMode/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/SpeedTreeImporter/Content/' mounted to '/SpeedTreeImporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/UVEditor/Content/' mounted to '/UVEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/DatasmithContent/Content/' mounted to '/DatasmithContent/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Enterprise/GLTFExporter/Content/' mounted to '/GLTFExporter/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosCaching/Content/' mounted to '/ChaosCaching/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosClothEditor/Content/' mounted to '/ChaosClothEditor/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosNiagara/Content/' mounted to '/ChaosNiagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ChaosSolverPlugin/Content/' mounted to '/ChaosSolverPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/Dataflow/Content/' mounted to '/Dataflow/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/FullBodyIK/Content/' mounted to '/FullBodyIK/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/GeometryCollectionPlugin/Content/' mounted to '/GeometryCollectionPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/MeshModelingToolsetExp/Content/' mounted to '/MeshModelingToolsetExp/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/PythonScriptPlugin/Content/' mounted to '/PythonScriptPlugin/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Experimental/ToolPresets/Content/' mounted to '/ToolPresets/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/FX/Niagara/Content/' mounted to '/Niagara/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Interchange/Runtime/Content/' mounted to '/Interchange/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Marketplace/LowEntryExtStdLib/Content/' mounted to '/LowEntryExtStdLib/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaCompositing/Content/' mounted to '/MediaCompositing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Media/MediaPlate/Content/' mounted to '/MediaPlate/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/MovieScene/SequencerScripting/Content/' mounted to '/SequencerScripting/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioSynesthesia/Content/' mounted to '/AudioSynesthesia/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/AudioWidgets/Content/' mounted to '/AudioWidgets/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/GeometryProcessing/Content/' mounted to '/GeometryProcessing/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/MeshModelingToolset/Content/' mounted to '/MeshModelingToolset/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Metasound/Content/' mounted to '/Metasound/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/ResonanceAudio/Content/' mounted to '/ResonanceAudio/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/RigVM/Content/' mounted to '/RigVM/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/Synthesis/Content/' mounted to '/Synthesis/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Runtime/WaveTable/Content/' mounted to '/WaveTable/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/VirtualProduction/Takes/Content/' mounted to '/Takes/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/LightMixer/Content/' mounted to '/LightMixer/'
+LogPackageName: Display: FPackageName: Mount point added: '../../Plugins/Editor/ObjectMixer/ObjectMixer/Content/' mounted to '/ObjectMixer/'
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+SourceControl: Revision control is disabled
+LogWindows: Failed to load 'WinPixGpuCapturer.dll' (GetLastError=126)
+LogWindows: File 'WinPixGpuCapturer.dll' does not exist
+PixWinPlugin: PIX capture plugin failed to initialize! Check that the process is launched from PIX.
+LogConfig: Applying CVar settings from Section [/Script/RenderDocPlugin.RenderDocPluginSettings] File [Engine]
+RenderDocPlugin: Display: RenderDoc plugin will not be loaded. Use '-AttachRenderDoc' on the cmd line or enable 'renderdoc.AutoAttach' in the plugin settings.
+LogInit: Using libcurl 8.4.0
+LogInit:  - built for Windows
+LogInit:  - supports SSL with OpenSSL/1.1.1t
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.13
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: Warning: OSS: TryLoadSubsystemAndSetDefault: LoadSubsystemModule([NULL]) failed
+LogOnline: OSS: Failed to load any Online Subsystem Modules
+LogInit: ExecutableName: UnrealEditor.exe
+LogInit: Build: ++UE5+Release-5.3-CL-29314046
+LogInit: Engine Version: 5.3.2-29314046+++UE5+Release-5.3
+LogInit: Compatible Engine Version: 5.3.0-27405482+++UE5+Release-5.3
+LogInit: Net CL: 27405482
+LogInit: OS: Windows 10 (22H2) [10.0.19045.3693] (), CPU: Intel(R) Xeon(R) CPU E5-2670 v3 @ 2.30GHz, GPU: Microsoft Basic Display Driver
+LogInit: Compiled (64-bit): Nov  3 2023 16:09:16
+LogInit: Architecture: x64
+LogInit: Compiled with Visual C++: 19.36.32537.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE5+Release-5.3
+LogInit: Command Line: Testing -server -log -port=17777
+LogInit: Base Directory: Z:/UE/UE_5.3/Engine/Binaries/Win64/
+LogInit: Allocator: Mimalloc
+LogInit: Installed Engine Build: 1
+LogInit: This binary is optimized with LTO: no, PGO: no, instrumented for PGO data collection: no
+LogDevObjectVersion: Number of dev versions registered: 36
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 20
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 47
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 13
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 111
+LogDevObjectVersion:   FortniteValkyrie (8DBC2C5B-54A7-43E0-A768-FCBB7DA29060): 2
+LogDevObjectVersion:   FortniteSeason (5B4C06B7-2463-4AF8-805B-BF70CDF5D0DD): 10
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 11
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 41
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   UE5-Main (697DD581-E64F-41AB-AA4A-51ECBEB7B628): 118
+LogDevObjectVersion:   UE5-Release (D89B5E42-24BD-4D46-8412-ACA8DF641779): 47
+LogDevObjectVersion:   UE5-PrivateFrosty (59DA5D52-1232-4948-B878-597870B8E98B): 8
+LogDevObjectVersion:   UE5-Dev-Cooker (26075A32-730F-4708-88E9-8C32F1599D05): 0
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogDevObjectVersion:   UE5-Dev-LWCRendering (30D58BE3-95EA-4282-A6E3-B159D8EBB06A): 1
+LogCoreRedirects: AddRedirect(C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Saved/Config/WindowsEditor/VaRest.ini) has substring redirect /VaRestPlugin/, these are very slow and should be resolved as soon as possible!
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Set CVar [[con.DebugEarlyDefault:1]]
+LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+LogConfig: Set CVar [[r.setres:1280x720]]
+LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy variable created
+LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
+[2023.12.02-09.22.36:799][  0]LogConfig: CVar [[con.DebugLateDefault:1]] deferred - dummy variable created
+[2023.12.02-09.22.36:800][  0]LogConfig: CVar [[con.DebugLateCheat:1]] deferred - dummy variable created
+[2023.12.02-09.22.36:800][  0]LogConfig: CVar [[LogNamedEventFilters:Frame *]] deferred - dummy variable created
+[2023.12.02-09.22.36:801][  0]LogConfig: CVar [[framepro.ScopeMinTimeMicroseconds:10]] deferred - dummy variable created
+[2023.12.02-09.22.36:802][  0]LogConfig: CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]] deferred - dummy variable created
+[2023.12.02-09.22.36:802][  0]LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
+[2023.12.02-09.22.36:803][  0]LogConfig: CVar [[r.Occlusion.SingleRHIThreadStall:1]] deferred - dummy variable created
+[2023.12.02-09.22.36:804][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [Engine]
+[2023.12.02-09.22.36:804][  0]LogConfig: CVar [[VisualizeCalibrationColorMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationColor.PPM_DefaultCalibrationColor]] deferred - dummy variable created
+[2023.12.02-09.22.36:805][  0]LogConfig: CVar [[VisualizeCalibrationGrayscaleMaterialPath:/Engine/EngineMaterials/PPM_DefaultCalibrationGrayscale.PPM_DefaultCalibrationGrayscale]] deferred - dummy variable created
+[2023.12.02-09.22.36:806][  0]LogConfig: Set CVar [[r.GPUCrashDebugging:0]]
+[2023.12.02-09.22.36:806][  0]LogConfig: CVar [[MaxSkinBones:(Default=65536,PerPlatform=(("Mobile", 256)))]] deferred - dummy variable created
+[2023.12.02-09.22.36:807][  0]LogConfig: Set CVar [[r.Shaders.RemoveUnusedInterpolators:1]]
+[2023.12.02-09.22.36:807][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [Engine]
+[2023.12.02-09.22.36:808][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [Engine]
+[2023.12.02-09.22.36:809][  0]LogConfig: Set CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2023.12.02-09.22.36:809][  0]LogConfig: Set CVar [[s.AsyncLoadingThreadEnabled:1]]
+[2023.12.02-09.22.36:811][  0]LogConfig: Set CVar [[s.EventDrivenLoaderEnabled:1]]
+[2023.12.02-09.22.36:814][  0]LogConfig: Set CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2023.12.02-09.22.36:815][  0]LogConfig: Set CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2023.12.02-09.22.36:816][  0]LogConfig: Set CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2023.12.02-09.22.36:816][  0]LogConfig: Set CVar [[s.UseBackgroundLevelStreaming:1]]
+[2023.12.02-09.22.36:817][  0]LogConfig: Set CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2023.12.02-09.22.36:817][  0]LogConfig: Set CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2023.12.02-09.22.36:818][  0]LogConfig: Set CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2023.12.02-09.22.36:818][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2023.12.02-09.22.36:819][  0]LogConfig: Set CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2023.12.02-09.22.36:819][  0]LogConfig: Set CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2023.12.02-09.22.36:820][  0]LogConfig: CVar [[s.MaxPackageSummarySize:16384]] deferred - dummy variable created
+[2023.12.02-09.22.36:821][  0]LogConfig: Set CVar [[s.FlushStreamingOnExit:1]]
+[2023.12.02-09.22.36:822][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__SoundBase]] deferred - dummy variable created
+[2023.12.02-09.22.36:822][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__MaterialInterface]] deferred - dummy variable created
+[2023.12.02-09.22.36:823][  0]LogConfig: CVar [[FixedBootOrder:/Script/Engine/Default__DeviceProfileManager]] deferred - dummy variable created
+[2023.12.02-09.22.36:823][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [Engine]
+[2023.12.02-09.22.36:824][  0]LogConfig: Set CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2023.12.02-09.22.36:824][  0]LogConfig: Set CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2023.12.02-09.22.36:826][  0]LogConfig: Set CVar [[gc.FlushStreamingOnGC:0]]
+[2023.12.02-09.22.36:829][  0]LogConfig: Set CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2023.12.02-09.22.36:830][  0]LogConfig: Set CVar [[gc.AllowParallelGC:1]]
+[2023.12.02-09.22.36:830][  0]LogConfig: Set CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2023.12.02-09.22.36:831][  0]LogConfig: Set CVar [[gc.MaxObjectsInEditor:25165824]]
+[2023.12.02-09.22.36:832][  0]LogConfig: Set CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2023.12.02-09.22.36:833][  0]LogConfig: Set CVar [[gc.CreateGCClusters:1]]
+[2023.12.02-09.22.36:834][  0]LogConfig: Set CVar [[gc.MinGCClusterSize:5]]
+[2023.12.02-09.22.36:835][  0]LogConfig: Set CVar [[gc.AssetClustreringEnabled:0]]
+[2023.12.02-09.22.36:835][  0]LogConfig: Set CVar [[gc.ActorClusteringEnabled:0]]
+[2023.12.02-09.22.36:835][  0]LogConfig: Set CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2023.12.02-09.22.36:835][  0]LogConfig: Set CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2023.12.02-09.22.36:836][  0]LogConfig: Set CVar [[gc.VerifyUObjectsAreNotFGCObjects:0]]
+[2023.12.02-09.22.36:837][  0]LogConfig: Set CVar [[gc.PendingKillEnabled:1]]
+[2023.12.02-09.22.36:837][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [Engine]
+[2023.12.02-09.22.36:838][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Average",ToolTip="Simulates average internet conditions")]] deferred - dummy variable created
+[2023.12.02-09.22.36:839][  0]LogConfig: CVar [[NetworkEmulationProfiles:(ProfileName="Bad",ToolTip="Simulates laggy internet conditions")]] deferred - dummy variable created
+[2023.12.02-09.22.36:839][  0]LogConfig: Set CVar [[p.EnableMultiplayerWorldOriginRebasing:1]]
+[2023.12.02-09.22.36:840][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [Engine]
+[2023.12.02-09.22.36:840][  0]LogConfig: CVar [[DefaultASTCQualityBySpeed:2]] deferred - dummy variable created
+[2023.12.02-09.22.36:841][  0]LogConfig: CVar [[DefaultASTCQualityBySize:3]] deferred - dummy variable created
+[2023.12.02-09.22.36:841][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:WidgetBlueprint]] deferred - dummy variable created
+[2023.12.02-09.22.36:843][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GroupActor]] deferred - dummy variable created
+[2023.12.02-09.22.36:846][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MetaData]] deferred - dummy variable created
+[2023.12.02-09.22.36:847][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ObjectRedirector]] deferred - dummy variable created
+[2023.12.02-09.22.36:848][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NavMeshRenderingComponent]] deferred - dummy variable created
+[2023.12.02-09.22.36:848][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ReflectionCaptureComponent]] deferred - dummy variable created
+[2023.12.02-09.22.36:849][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:TextRenderComponent]] deferred - dummy variable created
+[2023.12.02-09.22.36:850][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:Font]] deferred - dummy variable created
+[2023.12.02-09.22.36:850][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.12.02-09.22.36:851][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:MaterialExpression]] deferred - dummy variable created
+[2023.12.02-09.22.36:851][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraEmitter]] deferred - dummy variable created
+[2023.12.02-09.22.36:852][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:NiagaraScript]] deferred - dummy variable created
+[2023.12.02-09.22.36:852][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleEmitter]] deferred - dummy variable created
+[2023.12.02-09.22.36:854][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleLODLevel]] deferred - dummy variable created
+[2023.12.02-09.22.36:855][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:ParticleModule]] deferred - dummy variable created
+[2023.12.02-09.22.36:855][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SubUVAnimation]] deferred - dummy variable created
+[2023.12.02-09.22.36:856][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:SoundNode]] deferred - dummy variable created
+[2023.12.02-09.22.36:856][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedServer:GameplayEffectUIData]] deferred - dummy variable created
+[2023.12.02-09.22.36:857][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:WidgetBlueprint]] deferred - dummy variable created
+[2023.12.02-09.22.36:857][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:GroupActor]] deferred - dummy variable created
+[2023.12.02-09.22.36:858][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:MetaData]] deferred - dummy variable created
+[2023.12.02-09.22.36:861][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:ObjectRedirector]] deferred - dummy variable created
+[2023.12.02-09.22.36:862][  0]LogConfig: CVar [[ClassesExcludedOnDedicatedClient:InterpCurveEdSetup]] deferred - dummy variable created
+[2023.12.02-09.22.36:862][  0]LogConfig: CVar [[VersionedIntRValues:r.AllowStaticLighting]] deferred - dummy variable created
+[2023.12.02-09.22.36:862][  0]LogConfig: CVar [[VersionedIntRValues:r.MaterialEditor.LWCTruncateMode]] deferred - dummy variable created
+[2023.12.02-09.22.36:863][  0]LogConfig: CVar [[VersionedIntRValues:r.GBuffer]] deferred - dummy variable created
+[2023.12.02-09.22.36:863][  0]LogConfig: CVar [[VersionedIntRValues:r.VelocityOutputPass]] deferred - dummy variable created
+[2023.12.02-09.22.36:864][  0]LogConfig: CVar [[VersionedIntRValues:r.SelectiveBasePassOutputs]] deferred - dummy variable created
+[2023.12.02-09.22.36:865][  0]LogConfig: CVar [[VersionedIntRValues:r.DBuffer]] deferred - dummy variable created
+[2023.12.02-09.22.36:866][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Symbols]] deferred - dummy variable created
+[2023.12.02-09.22.36:866][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.GenerateSymbols]] deferred - dummy variable created
+[2023.12.02-09.22.36:867][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.WriteSymbols]] deferred - dummy variable created
+[2023.12.02-09.22.36:867][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.AllowUniqueSymbols]] deferred - dummy variable created
+[2023.12.02-09.22.36:868][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.ExtraData]] deferred - dummy variable created
+[2023.12.02-09.22.36:868][  0]LogConfig: CVar [[VersionedIntRValues:r.Shaders.Optimize]] deferred - dummy variable created
+[2023.12.02-09.22.36:869][  0]LogConfig: CVar [[VersionedIntRValues:r.CompileShadersForDevelopment]] deferred - dummy variable created
+[2023.12.02-09.22.36:870][  0]LogConfig: CVar [[VersionedIntRValues:r.MobileHDR]] deferred - dummy variable created
+[2023.12.02-09.22.36:870][  0]LogConfig: CVar [[VersionedIntRValues:r.UsePreExposure]] deferred - dummy variable created
+[2023.12.02-09.22.36:871][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [Scalability]
+[2023.12.02-09.22.36:871][  0]LogConfig: Set CVar [[r.SkeletalMeshLODBias:0]]
+[2023.12.02-09.22.36:873][  0]LogConfig: Set CVar [[r.ViewDistanceScale:1.0]]
+[2023.12.02-09.22.36:877][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [Scalability]
+[2023.12.02-09.22.36:877][  0]LogConfig: Set CVar [[r.FXAA.Quality:4]]
+[2023.12.02-09.22.36:878][  0]LogConfig: Set CVar [[r.TemporalAA.Quality:2]]
+[2023.12.02-09.22.36:879][  0]LogConfig: Set CVar [[r.TSR.History.R11G11B10:1]]
+[2023.12.02-09.22.36:879][  0]LogConfig: Set CVar [[r.TSR.History.ScreenPercentage:200]]
+[2023.12.02-09.22.36:880][  0]LogConfig: Set CVar [[r.TSR.History.UpdateQuality:3]]
+[2023.12.02-09.22.36:880][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.Flickering:1]]
+[2023.12.02-09.22.36:881][  0]LogConfig: Set CVar [[r.TSR.ShadingRejection.TileOverscan:3]]
+[2023.12.02-09.22.36:882][  0]LogConfig: CVar [[r.TSR.Velocity.Extrapolation:1]] deferred - dummy variable created
+[2023.12.02-09.22.36:882][  0]LogConfig: Set CVar [[r.TSR.RejectionAntiAliasingQuality:2]]
+[2023.12.02-09.22.36:882][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [Scalability]
+[2023.12.02-09.22.36:883][  0]LogConfig: Set CVar [[r.LightFunctionQuality:1]]
+[2023.12.02-09.22.36:883][  0]LogConfig: Set CVar [[r.ShadowQuality:5]]
+[2023.12.02-09.22.36:885][  0]LogConfig: Set CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2023.12.02-09.22.36:885][  0]LogConfig: Set CVar [[r.Shadow.MaxResolution:2048]]
+[2023.12.02-09.22.36:885][  0]LogConfig: Set CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2023.12.02-09.22.36:885][  0]LogConfig: Set CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2023.12.02-09.22.36:887][  0]LogConfig: Set CVar [[r.Shadow.DistanceScale:1.0]]
+[2023.12.02-09.22.36:888][  0]LogConfig: Set CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2023.12.02-09.22.36:891][  0]LogConfig: Set CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2023.12.02-09.22.36:891][  0]LogConfig: Set CVar [[r.DistanceFieldShadowing:1]]
+[2023.12.02-09.22.36:892][  0]LogConfig: Set CVar [[r.VolumetricFog:1]]
+[2023.12.02-09.22.36:894][  0]LogConfig: Set CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2023.12.02-09.22.36:894][  0]LogConfig: Set CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2023.12.02-09.22.36:895][  0]LogConfig: Set CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2023.12.02-09.22.36:895][  0]LogConfig: Set CVar [[r.LightMaxDrawDistanceScale:1]]
+[2023.12.02-09.22.36:896][  0]LogConfig: Set CVar [[r.CapsuleShadows:1]]
+[2023.12.02-09.22.36:896][  0]LogConfig: Set CVar [[r.Shadow.Virtual.MaxPhysicalPages:4096]]
+[2023.12.02-09.22.36:897][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectional:-1.5]]
+[2023.12.02-09.22.36:897][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasDirectionalMoving:-1.5]]
+[2023.12.02-09.22.36:898][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocal:0.0]]
+[2023.12.02-09.22.36:899][  0]LogConfig: Set CVar [[r.Shadow.Virtual.ResolutionLodBiasLocalMoving:1.0]]
+[2023.12.02-09.22.36:899][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountDirectional:8]]
+[2023.12.02-09.22.36:900][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayDirectional:4]]
+[2023.12.02-09.22.36:900][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.RayCountLocal:8]]
+[2023.12.02-09.22.36:901][  0]LogConfig: Set CVar [[r.Shadow.Virtual.SMRT.SamplesPerRayLocal:4]]
+[2023.12.02-09.22.36:901][  0]LogConfig: Applying CVar settings from Section [GlobalIlluminationQuality@3] File [Scalability]
+[2023.12.02-09.22.36:902][  0]LogConfig: Set CVar [[r.DistanceFieldAO:1]]
+[2023.12.02-09.22.36:902][  0]LogConfig: Set CVar [[r.AOQuality:2]]
+[2023.12.02-09.22.36:904][  0]LogConfig: Set CVar [[r.Lumen.DiffuseIndirect.Allow:1]]
+[2023.12.02-09.22.36:907][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.ProbeSpacing:4]]
+[2023.12.02-09.22.36:908][  0]LogConfig: Set CVar [[r.LumenScene.Radiosity.HemisphereProbeResolution:4]]
+[2023.12.02-09.22.36:909][  0]LogConfig: Set CVar [[r.Lumen.TraceMeshSDFs.Allow:1]]
+[2023.12.02-09.22.36:909][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.ProbeResolution:32]]
+[2023.12.02-09.22.36:910][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.RadianceCache.NumProbesToTraceBudget:300]]
+[2023.12.02-09.22.36:910][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.DownsampleFactor:16]]
+[2023.12.02-09.22.36:911][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TracingOctahedronResolution:8]]
+[2023.12.02-09.22.36:911][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.IrradianceFormat:0]]
+[2023.12.02-09.22.36:912][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.StochasticInterpolation:0]]
+[2023.12.02-09.22.36:912][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.FullResolutionJitterWidth:1]]
+[2023.12.02-09.22.36:914][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.TwoSidedFoliageBackfaceDiffuse:1]]
+[2023.12.02-09.22.36:914][  0]LogConfig: Set CVar [[r.Lumen.ScreenProbeGather.ScreenTraces.HZBTraversal.FullResDepth:1]]
+[2023.12.02-09.22.36:915][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.GridPixelSize:32]]
+[2023.12.02-09.22.36:916][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TraceFromVolume:1]]
+[2023.12.02-09.22.36:916][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.TracingOctahedronResolution:3]]
+[2023.12.02-09.22.36:917][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.ProbeResolution:8]]
+[2023.12.02-09.22.36:917][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyVolume.RadianceCache.NumProbesToTraceBudget:200]]
+[2023.12.02-09.22.36:918][  0]LogConfig: Applying CVar settings from Section [ReflectionQuality@3] File [Scalability]
+[2023.12.02-09.22.36:919][  0]LogConfig: Set CVar [[r.SSR.Quality:3]]
+[2023.12.02-09.22.36:922][  0]LogConfig: Set CVar [[r.SSR.HalfResSceneColor:0]]
+[2023.12.02-09.22.36:923][  0]LogConfig: Set CVar [[r.Lumen.Reflections.Allow:1]]
+[2023.12.02-09.22.36:923][  0]LogConfig: Set CVar [[r.Lumen.Reflections.DownsampleFactor:1]]
+[2023.12.02-09.22.36:924][  0]LogConfig: Set CVar [[r.Lumen.Reflections.MaxRoughnessToTraceForFoliage:0.4]]
+[2023.12.02-09.22.36:924][  0]LogConfig: Set CVar [[r.Lumen.Reflections.ScreenSpaceReconstruction.TonemapStrength:0]]
+[2023.12.02-09.22.36:925][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Allow:1]]
+[2023.12.02-09.22.36:926][  0]LogConfig: Set CVar [[r.Lumen.TranslucencyReflections.FrontLayer.Enable:0]]
+[2023.12.02-09.22.36:926][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [Scalability]
+[2023.12.02-09.22.36:927][  0]LogConfig: Set CVar [[r.MotionBlurQuality:4]]
+[2023.12.02-09.22.36:927][  0]LogConfig: Set CVar [[r.MotionBlur.HalfResGather:0]]
+[2023.12.02-09.22.36:928][  0]LogConfig: Set CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2023.12.02-09.22.36:929][  0]LogConfig: Set CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2023.12.02-09.22.36:929][  0]LogConfig: Set CVar [[r.AmbientOcclusionLevels:-1]]
+[2023.12.02-09.22.36:930][  0]LogConfig: Set CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2023.12.02-09.22.36:930][  0]LogConfig: Set CVar [[r.DepthOfFieldQuality:2]]
+[2023.12.02-09.22.36:931][  0]LogConfig: Set CVar [[r.RenderTargetPoolMin:400]]
+[2023.12.02-09.22.36:931][  0]LogConfig: Set CVar [[r.LensFlareQuality:2]]
+[2023.12.02-09.22.36:932][  0]LogConfig: Set CVar [[r.SceneColorFringeQuality:1]]
+[2023.12.02-09.22.36:933][  0]LogConfig: Set CVar [[r.EyeAdaptationQuality:2]]
+[2023.12.02-09.22.36:933][  0]LogConfig: Set CVar [[r.BloomQuality:5]]
+[2023.12.02-09.22.36:934][  0]LogConfig: Set CVar [[r.Bloom.ScreenPercentage:50.000]]
+[2023.12.02-09.22.36:936][  0]LogConfig: Set CVar [[r.FastBlurThreshold:100]]
+[2023.12.02-09.22.36:938][  0]LogConfig: Set CVar [[r.Upscale.Quality:3]]
+[2023.12.02-09.22.36:938][  0]LogConfig: Set CVar [[r.LightShaftQuality:1]]
+[2023.12.02-09.22.36:939][  0]LogConfig: Set CVar [[r.Filter.SizeScale:1]]
+[2023.12.02-09.22.36:939][  0]LogConfig: Set CVar [[r.Tonemapper.Quality:5]]
+[2023.12.02-09.22.36:940][  0]LogConfig: Set CVar [[r.DOF.Gather.ResolutionDivisor:2         ; lower gathering resolution]]
+[2023.12.02-09.22.36:940][  0]LogConfig: Set CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2023.12.02-09.22.36:941][  0]LogConfig: Set CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2023.12.02-09.22.36:941][  0]LogConfig: Set CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2023.12.02-09.22.36:942][  0]LogConfig: Set CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2023.12.02-09.22.36:943][  0]LogConfig: Set CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2023.12.02-09.22.36:944][  0]LogConfig: Set CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2023.12.02-09.22.36:944][  0]LogConfig: Set CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2023.12.02-09.22.36:945][  0]LogConfig: Set CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2023.12.02-09.22.36:945][  0]LogConfig: Set CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2023.12.02-09.22.36:946][  0]LogConfig: Set CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2023.12.02-09.22.36:946][  0]LogConfig: Set CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2023.12.02-09.22.36:947][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2023.12.02-09.22.36:947][  0]LogConfig: Set CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2023.12.02-09.22.36:948][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [Scalability]
+[2023.12.02-09.22.36:949][  0]LogConfig: Set CVar [[r.Streaming.MipBias:0]]
+[2023.12.02-09.22.36:952][  0]LogConfig: Set CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2023.12.02-09.22.36:953][  0]LogConfig: Set CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2023.12.02-09.22.36:955][  0]LogConfig: Set CVar [[r.Streaming.Boost:1]]
+[2023.12.02-09.22.36:955][  0]LogConfig: Set CVar [[r.MaxAnisotropy:8]]
+[2023.12.02-09.22.36:955][  0]LogConfig: Set CVar [[r.VT.MaxAnisotropy:8]]
+[2023.12.02-09.22.36:956][  0]LogConfig: Set CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2023.12.02-09.22.36:956][  0]LogConfig: Set CVar [[r.Streaming.PoolSize:1000]]
+[2023.12.02-09.22.36:957][  0]LogConfig: Set CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2023.12.02-09.22.36:957][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [Scalability]
+[2023.12.02-09.22.36:958][  0]LogConfig: Set CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2023.12.02-09.22.36:958][  0]LogConfig: Set CVar [[r.RefractionQuality:2]]
+[2023.12.02-09.22.36:959][  0]LogConfig: Set CVar [[r.SceneColorFormat:4]]
+[2023.12.02-09.22.36:960][  0]LogConfig: Set CVar [[r.DetailMode:2]]
+[2023.12.02-09.22.36:960][  0]LogConfig: Set CVar [[r.TranslucencyVolumeBlur:1]]
+[2023.12.02-09.22.36:961][  0]LogConfig: Set CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2023.12.02-09.22.36:961][  0]LogConfig: Set CVar [[r.SSS.Scale:1]]
+[2023.12.02-09.22.36:962][  0]LogConfig: Set CVar [[r.SSS.SampleSet:2]]
+[2023.12.02-09.22.36:962][  0]LogConfig: Set CVar [[r.SSS.Quality:1]]
+[2023.12.02-09.22.36:963][  0]LogConfig: Set CVar [[r.SSS.HalfRes:0]]
+[2023.12.02-09.22.36:963][  0]LogConfig: Set CVar [[r.SSGI.Quality:3]]
+[2023.12.02-09.22.36:965][  0]LogConfig: Set CVar [[r.EmitterSpawnRateScale:1.0]]
+[2023.12.02-09.22.36:968][  0]LogConfig: Set CVar [[r.ParticleLightQuality:2]]
+[2023.12.02-09.22.36:968][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2023.12.02-09.22.36:968][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2023.12.02-09.22.36:969][  0]LogConfig: Set CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2023.12.02-09.22.36:970][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2023.12.02-09.22.36:971][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2023.12.02-09.22.36:972][  0]LogConfig: Set CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2023.12.02-09.22.36:972][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2023.12.02-09.22.36:974][  0]LogConfig: Set CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2023.12.02-09.22.36:974][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2023.12.02-09.22.36:975][  0]LogConfig: Set CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2023.12.02-09.22.36:976][  0]LogConfig: Set CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2023.12.02-09.22.36:976][  0]LogConfig: Set CVar [[r.SkyLight.RealTimeReflectionCapture:1]]
+[2023.12.02-09.22.36:977][  0]LogConfig: CVar [[fx.Niagara.QualityLevel:3]] deferred - dummy variable created
+[2023.12.02-09.22.36:977][  0]LogConfig: Set CVar [[r.Refraction.OffsetQuality:1]]
+[2023.12.02-09.22.36:978][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [Scalability]
+[2023.12.02-09.22.36:978][  0]LogConfig: Set CVar [[foliage.DensityScale:1.0]]
+[2023.12.02-09.22.36:979][  0]LogConfig: Set CVar [[grass.DensityScale:1.0]]
+[2023.12.02-09.22.36:982][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [Scalability]
+[2023.12.02-09.22.36:983][  0]LogConfig: Set CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2023.12.02-09.22.36:983][  0]LogConfig: Set CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2023.12.02-09.22.36:984][  0]LogConfig: Set CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2023.12.02-09.22.36:985][  0]LogConfig: Set CVar [[r.AnisotropicMaterials:1]]
+[2023.12.02-09.22.36:986][  0]LogInit: Selected Device Profile: [WindowsEditor]
+[2023.12.02-09.22.36:987][  0]LogHAL: Display: Platform has ~ 64 GB [68619300864 / 68719476736 / 64], which maps to Largest [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2023.12.02-09.22.36:987][  0]LogDeviceProfileManager: Going up to parent DeviceProfile [Windows]
+[2023.12.02-09.22.36:988][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2023.12.02-09.22.36:988][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2023.12.02-09.22.36:989][  0]LogConfig: Set CVar [[r.DumpShaderDebugInfo:2]]
+[2023.12.02-09.22.36:990][  0]LogConfig: Set CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2023.12.02-09.22.36:990][  0]LogConfig: Set CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2023.12.02-09.22.36:991][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [Engine]
+[2023.12.02-09.22.36:991][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Saved/Config/WindowsEditor/Editor.ini]
+[2023.12.02-09.22.36:992][  0]LogInit: Computer: RST
+[2023.12.02-09.22.36:993][  0]LogInit: User: range
+[2023.12.02-09.22.36:993][  0]LogInit: CPU Page size=4096, Cores=24
+[2023.12.02-09.22.36:994][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2023.12.02-09.22.36:994][  0]LogMemory: Memory total: Physical=63.9GB (64GB approx)
+[2023.12.02-09.22.36:996][  0]LogMemory: Platform Memory Stats for WindowsEditor
+[2023.12.02-09.22.36:999][  0]LogMemory: Process Physical Memory: 437.68 MB used, 437.69 MB peak
+[2023.12.02-09.22.37:000][  0]LogMemory: Process Virtual Memory: 399.14 MB used, 399.14 MB peak
+[2023.12.02-09.22.37:000][  0]LogMemory: Physical Memory: 34983.66 MB used,  30456.81 MB free, 65440.46 MB total
+[2023.12.02-09.22.37:000][  0]LogMemory: Virtual Memory: 47890.95 MB used,  27277.52 MB free, 75168.47 MB total
+[2023.12.02-09.22.37:000][  0]LogCsvProfiler: Display: Metadata set : extradevelopmentmemorymb="0"
+[2023.12.02-09.22.37:011][  0]LogWindows: WindowsPlatformFeatures disabled or dedicated server build
+[2023.12.02-09.22.37:012][  0]LogInit: Physics initialised using underlying interface: Chaos
+[2023.12.02-09.22.37:012][  0]LogInit: Using OS detected language (ru-RU).
+[2023.12.02-09.22.37:012][  0]LogInit: Using OS detected locale (ru-RU).
+[2023.12.02-09.22.37:015][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so 'ru' will be used for the language.
+[2023.12.02-09.22.37:062][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+[2023.12.02-09.22.37:062][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+[2023.12.02-09.22.37:063][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+[2023.12.02-09.22.37:066][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+[2023.12.02-09.22.37:067][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+[2023.12.02-09.22.37:067][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+[2023.12.02-09.22.37:068][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+[2023.12.02-09.22.37:068][  0]LogVRS: Current RHI does not support Variable Rate Shading
+[2023.12.02-09.22.37:082][  0]LogTurnkeySupport: Running Turnkey SDK detection: ' -ScriptsForProject="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/CyberWar.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Intermediate/TurnkeyReport_0.log" -log="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Intermediate/TurnkeyLog_0.log" -project="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/CyberWar.uproject"  -platform=all'
+[2023.12.02-09.22.37:082][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""Z:/UE/UE_5.3/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/CyberWar.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Intermediate/TurnkeyReport_0.log" -log="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Intermediate/TurnkeyLog_0.log" -project="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/CyberWar.uproject"  -platform=all" ]
+[2023.12.02-09.22.37:127][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatASTC
+[2023.12.02-09.22.37:127][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatDXT
+[2023.12.02-09.22.37:128][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatETC2
+[2023.12.02-09.22.37:130][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatIntelISPCTexComp
+[2023.12.02-09.22.37:130][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatUncompressed
+[2023.12.02-09.22.37:130][  0]LogTextureFormatOodle: Display: Oodle Texture TFO init; latest sdk version = 2.9.10
+[2023.12.02-09.22.37:131][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.5.dll
+[2023.12.02-09.22.37:132][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.6.dll
+[2023.12.02-09.22.37:136][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.7.dll
+[2023.12.02-09.22.37:138][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.8.dll
+[2023.12.02-09.22.37:139][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.9.dll
+[2023.12.02-09.22.37:142][  0]LogTextureFormatOodle: Display: Oodle Texture loading DLL: oo2tex_win64_2.9.10.dll
+[2023.12.02-09.22.37:143][  0]LogTextureFormatManager: Display: Loaded Base TextureFormat: TextureFormatOodle
+[2023.12.02-09.22.37:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2023.12.02-09.22.37:167][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2023.12.02-09.22.37:171][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2023.12.02-09.22.37:171][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2023.12.02-09.22.37:171][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2023.12.02-09.22.37:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2023.12.02-09.22.37:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2023.12.02-09.22.37:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2023.12.02-09.22.37:173][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2023.12.02-09.22.37:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2023.12.02-09.22.37:179][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2023.12.02-09.22.37:181][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2023.12.02-09.22.37:184][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2023.12.02-09.22.37:189][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2023.12.02-09.22.37:190][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxEditor'
+[2023.12.02-09.22.37:193][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2023.12.02-09.22.37:194][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2023.12.02-09.22.37:199][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64'
+[2023.12.02-09.22.37:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Server'
+[2023.12.02-09.22.37:201][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxArm64Client'
+[2023.12.02-09.22.37:206][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2023.12.02-09.22.37:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacEditor'
+[2023.12.02-09.22.37:220][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2023.12.02-09.22.37:222][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2023.12.02-09.22.37:229][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2023.12.02-09.22.37:233][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2023.12.02-09.22.37:243][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2023.12.02-09.22.37:244][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsEditor'
+[2023.12.02-09.22.37:244][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2023.12.02-09.22.37:245][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2023.12.02-09.22.37:248][  0]LogTargetPlatformManager: Display: Building Assets For WindowsEditor
+[2023.12.02-09.22.37:259][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2023.12.02-09.22.37:338][  0]LogTargetPlatformManager: Unable to find shader format SF_METAL from hinted modules, loading all potential format modules to find it
+[2023.12.02-09.22.37:343][  0]LogTargetPlatformManager: Loaded format module MetalShaderFormat
+[2023.12.02-09.22.37:344][  0]LogTargetPlatformManager:   SF_METAL
+[2023.12.02-09.22.37:344][  0]LogTargetPlatformManager:   SF_METAL_MRT
+[2023.12.02-09.22.37:344][  0]LogTargetPlatformManager:   SF_METAL_TVOS
+[2023.12.02-09.22.37:345][  0]LogTargetPlatformManager:   SF_METAL_MRT_TVOS
+[2023.12.02-09.22.37:345][  0]LogTargetPlatformManager:   SF_METAL_SM5
+[2023.12.02-09.22.37:345][  0]LogTargetPlatformManager:   SF_METAL_SM6
+[2023.12.02-09.22.37:345][  0]LogTargetPlatformManager:   SF_METAL_SIM
+[2023.12.02-09.22.37:346][  0]LogTargetPlatformManager:   SF_METAL_MACES3_1
+[2023.12.02-09.22.37:346][  0]LogTargetPlatformManager:   SF_METAL_MRT_MAC
+[2023.12.02-09.22.37:346][  0]LogTargetPlatformManager: Loaded format module ShaderFormatD3D
+[2023.12.02-09.22.37:348][  0]LogTargetPlatformManager:   PCD3D_SM6
+[2023.12.02-09.22.37:349][  0]LogTargetPlatformManager:   PCD3D_SM5
+[2023.12.02-09.22.37:349][  0]LogTargetPlatformManager:   PCD3D_ES31
+[2023.12.02-09.22.37:350][  0]LogTargetPlatformManager: Loaded format module ShaderFormatOpenGL
+[2023.12.02-09.22.37:350][  0]LogTargetPlatformManager:   GLSL_150_ES31
+[2023.12.02-09.22.37:352][  0]LogTargetPlatformManager:   GLSL_ES3_1_ANDROID
+[2023.12.02-09.22.37:353][  0]LogTargetPlatformManager: Loaded format module ShaderFormatVectorVM
+[2023.12.02-09.22.37:353][  0]LogTargetPlatformManager:   VVM_1_0
+[2023.12.02-09.22.37:355][  0]LogTargetPlatformManager: Loaded format module VulkanShaderFormat
+[2023.12.02-09.22.37:355][  0]LogTargetPlatformManager:   SF_VULKAN_SM5
+[2023.12.02-09.22.37:355][  0]LogTargetPlatformManager:   SF_VULKAN_ES31_ANDROID
+[2023.12.02-09.22.37:355][  0]LogTargetPlatformManager:   SF_VULKAN_ES31
+[2023.12.02-09.22.37:355][  0]LogTargetPlatformManager:   SF_VULKAN_SM5_ANDROID
+[2023.12.02-09.22.37:355][  0]LogTargetPlatformManager:   SF_VULKAN_SM6
+[2023.12.02-09.22.37:356][  0]LogRendererCore: Ray tracing is disabled. Reason: disabled through project setting (r.RayTracing=0).
+[2023.12.02-09.22.37:359][  0]LogDerivedDataCache: Display: Memory: Max Cache Size: -1 MB
+[2023.12.02-09.22.37:359][  0]LogDerivedDataCache: FDerivedDataBackendGraph: Pak pak cache file C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2023.12.02-09.22.37:360][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchy Hierarchy.
+[2023.12.02-09.22.37:360][  0]LogDerivedDataCache: FDerivedDataBackendGraph: CompressedPak pak cache file C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.12.02-09.22.37:360][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchy Hierarchy.
+[2023.12.02-09.22.37:422][  0]LogDerivedDataCache: Display: ../../../Engine/DerivedDataCache/Compressed.ddp: Opened pak cache for reading. (2383 MiB)
+[2023.12.02-09.22.37:422][  0]LogDerivedDataCache: FDerivedDataBackendGraph: EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2023.12.02-09.22.37:423][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchy Hierarchy.
+[2023.12.02-09.22.37:439][  0]LogDerivedDataCache: C:/Users/range/AppData/Local/UnrealEngine/Common/DerivedDataCache: Speed tests took 0.01 seconds.
+[2023.12.02-09.22.37:439][  0]LogDerivedDataCache: Display: C:/Users/range/AppData/Local/UnrealEngine/Common/DerivedDataCache: Performance: Latency=0.09ms. RandomReadSpeed=413.91MBs, RandomWriteSpeed=84.23MBs. Assigned SpeedClass 'Local'
+[2023.12.02-09.22.37:442][  0]LogDerivedDataCache: Local: Using data cache path C:/Users/range/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2023.12.02-09.22.37:442][  0]LogDerivedDataCache: Shared: Disabled because no path is configured.
+[2023.12.02-09.22.37:444][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchy Hierarchy.
+[2023.12.02-09.22.37:445][  0]LogDerivedDataCache: Cloud: Disabled because Host is set to 'None'
+[2023.12.02-09.22.37:448][  0]LogDerivedDataCache: Unable to find inner node Cloud for hierarchy Hierarchy.
+[2023.12.02-09.22.37:449][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Intermediate/Shaders/WorkingDirectory/28160/).
+[2023.12.02-09.22.37:450][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/range/AppData/Local/Temp/UnrealShaderWorkingDir/751A640C4ED3CA5E5ACCEC806E948D97/'.
+[2023.12.02-09.22.37:452][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2023.12.02-09.22.37:454][  0]LogShaderCompilers: Display: Using Local Shader Compiler with 24 workers.
+[2023.12.02-09.22.39:498][  0]LogTurnkeySupport: Completed SDK detection: ExitCode = 0
+[2023.12.02-09.22.39:498][  0]LogShaderCompilers: Display: Compiling shader autogen file: C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Intermediate/ShaderAutogen/PCD3D_SM5/AutogenShaderHeaders.ush
+[2023.12.02-09.22.39:498][  0]LogShaderCompilers: Display: Autogen file is unchanged, skipping write.
+[2023.12.02-09.22.39:504][  0]LogInit: Using OS detected language (ru-RU).
+[2023.12.02-09.22.39:504][  0]LogInit: Using OS detected locale (ru-RU).
+[2023.12.02-09.22.39:504][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the language.
+[2023.12.02-09.22.39:504][  0]LogTextLocalizationManager: No localization for 'ru-RU' exists, so 'en' will be used for the locale.
+[2023.12.02-09.22.39:506][  0]LogAssetRegistry: FAssetRegistry took 0.0006 seconds to start up
+[2023.12.02-09.22.39:768][  0]LogPackageLocalizationCache: Processed 44 localized package path(s) for 1 prioritized culture(s) in 0.003938 seconds
+[2023.12.02-09.22.39:772][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64Editor not found.
+[2023.12.02-09.22.39:773][  0]LogDeviceProfileManager: Display: Deviceprofile LinuxArm64 not found.
+[2023.12.02-09.22.39:991][  0]LogDeviceProfileManager: Available device profiles:
+[2023.12.02-09.22.39:991][  0]LogDeviceProfileManager: 	[00000BB502582C00][00000BB4EAEDC800 66] GlobalDefaults, 
+[2023.12.02-09.22.39:994][  0]LogDeviceProfileManager: 	[00000BB502583000][00000BB4EAED7800 66] Windows, 
+[2023.12.02-09.22.39:994][  0]LogDeviceProfileManager: 	[00000BB502583200][00000BB4FF37A000 66] WindowsEditor, 
+[2023.12.02-09.22.39:995][  0]LogDeviceProfileManager: 	[00000BB502583400][00000BB4FF375000 66] WindowsServer, 
+[2023.12.02-09.22.39:996][  0]LogDeviceProfileManager: 	[00000BB502583600][00000BB4FEA8C800 66] WindowsClient, 
+[2023.12.02-09.22.39:996][  0]LogDeviceProfileManager: 	[00000BB502583800][00000BB4E5D75000 66] IOS, 
+[2023.12.02-09.22.39:997][  0]LogDeviceProfileManager: 	[00000BB502583A00][00000BB5026B0000 66] iPadAir2, 
+[2023.12.02-09.22.39:998][  0]LogDeviceProfileManager: 	[00000BB502583C00][00000BB5026B2800 66] IPadPro, 
+[2023.12.02-09.22.39:999][  0]LogDeviceProfileManager: 	[00000BB502583E00][00000BB5026B5000 66] iPadAir3, 
+[2023.12.02-09.22.40:000][  0]LogDeviceProfileManager: 	[00000BB502584000][00000BB5026B7800 66] iPadAir4, 
+[2023.12.02-09.22.40:000][  0]LogDeviceProfileManager: 	[00000BB502584200][00000BB5026BA000 66] iPadAir5, 
+[2023.12.02-09.22.40:001][  0]LogDeviceProfileManager: 	[00000BB502584400][00000BB5026BC800 66] iPadMini4, 
+[2023.12.02-09.22.40:001][  0]LogDeviceProfileManager: 	[00000BB502584600][00000BB5026C0000 66] iPadMini5, 
+[2023.12.02-09.22.40:002][  0]LogDeviceProfileManager: 	[00000BB502584800][00000BB5026C2800 66] iPadMini6, 
+[2023.12.02-09.22.40:004][  0]LogDeviceProfileManager: 	[00000BB502584A00][00000BB5026C5000 66] iPhone6S, 
+[2023.12.02-09.22.40:006][  0]LogDeviceProfileManager: 	[00000BB502584C00][00000BB5026C7800 66] iPhone7, 
+[2023.12.02-09.22.40:006][  0]LogDeviceProfileManager: 	[00000BB502584E00][00000BB5026CA000 66] iPodTouch7, 
+[2023.12.02-09.22.40:006][  0]LogDeviceProfileManager: 	[00000BB502585000][00000BB5026CC800 66] iPhone6SPlus, 
+[2023.12.02-09.22.40:007][  0]LogDeviceProfileManager: 	[00000BB502585200][00000BB5026D0000 66] iPhone7Plus, 
+[2023.12.02-09.22.40:007][  0]LogDeviceProfileManager: 	[00000BB502585400][00000BB5026D2800 66] iPhoneSE, 
+[2023.12.02-09.22.40:007][  0]LogDeviceProfileManager: 	[00000BB502585600][00000BB5026D5000 66] iPhone8, 
+[2023.12.02-09.22.40:007][  0]LogDeviceProfileManager: 	[00000BB502585800][00000BB5026D7800 66] iPhone8Plus, 
+[2023.12.02-09.22.40:007][  0]LogDeviceProfileManager: 	[00000BB502585A00][00000BB5026DA000 66] iPhoneX, 
+[2023.12.02-09.22.40:008][  0]LogDeviceProfileManager: 	[00000BB502585C00][00000BB5026DC800 66] iPhoneXS, 
+[2023.12.02-09.22.40:008][  0]LogDeviceProfileManager: 	[00000BB502585E00][00000BB5026E0000 66] iPhoneXSMax, 
+[2023.12.02-09.22.40:008][  0]LogDeviceProfileManager: 	[00000BB502586000][00000BB5026E2800 66] iPhoneXR, 
+[2023.12.02-09.22.40:008][  0]LogDeviceProfileManager: 	[00000BB502586200][00000BB5026E5000 66] iPhone11, 
+[2023.12.02-09.22.40:009][  0]LogDeviceProfileManager: 	[00000BB502586400][00000BB5026E7800 66] iPhone11Pro, 
+[2023.12.02-09.22.40:009][  0]LogDeviceProfileManager: 	[00000BB502586600][00000BB5026EA000 66] iPhone11ProMax, 
+[2023.12.02-09.22.40:009][  0]LogDeviceProfileManager: 	[00000BB502586800][00000BB5026EC800 66] iPhoneSE2, 
+[2023.12.02-09.22.40:009][  0]LogDeviceProfileManager: 	[00000BB502586A00][00000BB5026F0000 66] iPhone12Mini, 
+[2023.12.02-09.22.40:012][  0]LogDeviceProfileManager: 	[00000BB502586C00][00000BB5026F2800 66] iPhone12, 
+[2023.12.02-09.22.40:012][  0]LogDeviceProfileManager: 	[00000BB502586E00][00000BB5026F5000 66] iPhone12Pro, 
+[2023.12.02-09.22.40:012][  0]LogDeviceProfileManager: 	[00000BB502587000][00000BB5026F7800 66] iPhone12ProMax, 
+[2023.12.02-09.22.40:012][  0]LogDeviceProfileManager: 	[00000BB502587200][00000BB5026FA000 66] iPhone13Mini, 
+[2023.12.02-09.22.40:013][  0]LogDeviceProfileManager: 	[00000BB502587400][00000BB5026FC800 66] iPhone13, 
+[2023.12.02-09.22.40:017][  0]LogDeviceProfileManager: 	[00000BB502587600][00000BB502700000 66] iPhone13Pro, 
+[2023.12.02-09.22.40:018][  0]LogDeviceProfileManager: 	[00000BB502587800][00000BB502702800 66] iPhone13ProMax, 
+[2023.12.02-09.22.40:020][  0]LogDeviceProfileManager: 	[00000BB502587A00][00000BB502705000 66] iPhoneSE3, 
+[2023.12.02-09.22.40:023][  0]LogDeviceProfileManager: 	[00000BB502587C00][00000BB502707800 66] iPhone14, 
+[2023.12.02-09.22.40:024][  0]LogDeviceProfileManager: 	[00000BB502587E00][00000BB50270A000 66] iPhone14Plus, 
+[2023.12.02-09.22.40:026][  0]LogDeviceProfileManager: 	[00000BB502588000][00000BB50270C800 66] iPhone14Pro, 
+[2023.12.02-09.22.40:026][  0]LogDeviceProfileManager: 	[00000BB502588200][00000BB502710000 66] iPhone14ProMax, 
+[2023.12.02-09.22.40:028][  0]LogDeviceProfileManager: 	[00000BB502588400][00000BB502712800 66] iPhone15, 
+[2023.12.02-09.22.40:030][  0]LogDeviceProfileManager: 	[00000BB502588600][00000BB502715000 66] iPhone15Plus, 
+[2023.12.02-09.22.40:032][  0]LogDeviceProfileManager: 	[00000BB502588800][00000BB502717800 66] iPhone15Pro, 
+[2023.12.02-09.22.40:034][  0]LogDeviceProfileManager: 	[00000BB502588A00][00000BB50271A000 66] iPhone15ProMax, 
+[2023.12.02-09.22.40:036][  0]LogDeviceProfileManager: 	[00000BB502588C00][00000BB50271C800 66] iPadPro105, 
+[2023.12.02-09.22.40:038][  0]LogDeviceProfileManager: 	[00000BB502588E00][00000BB502720000 66] iPadPro129, 
+[2023.12.02-09.22.40:040][  0]LogDeviceProfileManager: 	[00000BB502589000][00000BB502722800 66] iPadPro97, 
+[2023.12.02-09.22.40:041][  0]LogDeviceProfileManager: 	[00000BB502589200][00000BB502725000 66] iPadPro2_129, 
+[2023.12.02-09.22.40:043][  0]LogDeviceProfileManager: 	[00000BB502589400][00000BB502727800 66] iPad5, 
+[2023.12.02-09.22.40:044][  0]LogDeviceProfileManager: 	[00000BB502589600][00000BB50272A000 66] iPad6, 
+[2023.12.02-09.22.40:045][  0]LogDeviceProfileManager: 	[00000BB502589800][00000BB50272C800 66] iPad7, 
+[2023.12.02-09.22.40:046][  0]LogDeviceProfileManager: 	[00000BB502589A00][00000BB502730000 66] iPad8, 
+[2023.12.02-09.22.40:047][  0]LogDeviceProfileManager: 	[00000BB502589C00][00000BB502732800 66] iPad9, 
+[2023.12.02-09.22.40:050][  0]LogDeviceProfileManager: 	[00000BB502589E00][00000BB502735000 66] iPad10, 
+[2023.12.02-09.22.40:053][  0]LogDeviceProfileManager: 	[00000BB50258A000][00000BB502737800 66] iPadPro11, 
+[2023.12.02-09.22.40:054][  0]LogDeviceProfileManager: 	[00000BB50258A200][00000BB50273A000 66] iPadPro2_11, 
+[2023.12.02-09.22.40:055][  0]LogDeviceProfileManager: 	[00000BB50258A400][00000BB50273C800 66] iPadPro3_11, 
+[2023.12.02-09.22.40:056][  0]LogDeviceProfileManager: 	[00000BB50258A600][00000BB502740000 66] iPadPro4_11, 
+[2023.12.02-09.22.40:058][  0]LogDeviceProfileManager: 	[00000BB50258A800][00000BB502742800 66] iPadPro3_129, 
+[2023.12.02-09.22.40:058][  0]LogDeviceProfileManager: 	[00000BB50258AA00][00000BB502745000 66] iPadPro4_129, 
+[2023.12.02-09.22.40:059][  0]LogDeviceProfileManager: 	[00000BB50258AC00][00000BB502747800 66] iPadPro5_129, 
+[2023.12.02-09.22.40:060][  0]LogDeviceProfileManager: 	[00000BB50258AE00][00000BB50274A000 66] iPadPro6_129, 
+[2023.12.02-09.22.40:061][  0]LogDeviceProfileManager: 	[00000BB50258B000][00000BB50274C800 66] AppleTV, 
+[2023.12.02-09.22.40:061][  0]LogDeviceProfileManager: 	[00000BB50258B200][00000BB502750000 66] AppleTV4K, 
+[2023.12.02-09.22.40:062][  0]LogDeviceProfileManager: 	[00000BB50258B400][00000BB502752800 66] AppleTV2_4K, 
+[2023.12.02-09.22.40:063][  0]LogDeviceProfileManager: 	[00000BB50258B600][00000BB502755000 66] TVOS, 
+[2023.12.02-09.22.40:064][  0]LogDeviceProfileManager: 	[00000BB50258B800][00000BB502757800 66] Mac, 
+[2023.12.02-09.22.40:066][  0]LogDeviceProfileManager: 	[00000BB50258BA00][00000BB50275A000 66] MacEditor, 
+[2023.12.02-09.22.40:068][  0]LogDeviceProfileManager: 	[00000BB50258BC00][00000BB50275C800 66] MacClient, 
+[2023.12.02-09.22.40:069][  0]LogDeviceProfileManager: 	[00000BB50258BE00][00000BB502760000 66] MacServer, 
+[2023.12.02-09.22.40:069][  0]LogDeviceProfileManager: 	[00000BB50258C000][00000BB502762800 66] Linux, 
+[2023.12.02-09.22.40:070][  0]LogDeviceProfileManager: 	[00000BB50258C200][00000BB502765000 66] LinuxEditor, 
+[2023.12.02-09.22.40:071][  0]LogDeviceProfileManager: 	[00000BB50258C400][00000BB502767800 66] LinuxArm64Editor, 
+[2023.12.02-09.22.40:072][  0]LogDeviceProfileManager: 	[00000BB50258C600][00000BB50276A000 66] LinuxArm64, 
+[2023.12.02-09.22.40:072][  0]LogDeviceProfileManager: 	[00000BB50258C800][00000BB50276C800 66] LinuxClient, 
+[2023.12.02-09.22.40:073][  0]LogDeviceProfileManager: 	[00000BB50258CA00][00000BB502770000 66] LinuxArm64Client, 
+[2023.12.02-09.22.40:074][  0]LogDeviceProfileManager: 	[00000BB50258CC00][00000BB502772800 66] LinuxServer, 
+[2023.12.02-09.22.40:075][  0]LogDeviceProfileManager: 	[00000BB50258CE00][00000BB502775000 66] LinuxArm64Server, 
+[2023.12.02-09.22.40:075][  0]LogDeviceProfileManager: 	[00000BB50258D000][00000BB502777800 66] Android, 
+[2023.12.02-09.22.40:076][  0]LogDeviceProfileManager: 	[00000BB50258D200][00000BB50277A000 66] Android_Preview_OpenGL, 
+[2023.12.02-09.22.40:077][  0]LogDeviceProfileManager: 	[00000BB50258D400][00000BB50277C800 66] Android_Preview_Vulkan, 
+[2023.12.02-09.22.40:077][  0]LogDeviceProfileManager: 	[00000BB50258D600][00000BB5027E0000 66] Android_Low, 
+[2023.12.02-09.22.40:078][  0]LogDeviceProfileManager: 	[00000BB50258D800][00000BB5027E2800 66] Android_Mid, 
+[2023.12.02-09.22.40:079][  0]LogDeviceProfileManager: 	[00000BB50258DA00][00000BB5027E5000 66] Android_High, 
+[2023.12.02-09.22.40:079][  0]LogDeviceProfileManager: 	[00000BB50258DC00][00000BB5027E7800 66] Android_Default, 
+[2023.12.02-09.22.40:080][  0]LogDeviceProfileManager: 	[00000BB50258DE00][00000BB5027EA000 66] Android_Adreno4xx, 
+[2023.12.02-09.22.40:083][  0]LogDeviceProfileManager: 	[00000BB50258E000][00000BB5027EC800 66] Android_Adreno5xx_Low, 
+[2023.12.02-09.22.40:084][  0]LogDeviceProfileManager: 	[00000BB50258E200][00000BB5027F0000 66] Android_Adreno5xx, 
+[2023.12.02-09.22.40:084][  0]LogDeviceProfileManager: 	[00000BB50258E400][00000BB5027F2800 66] Android_Adreno6xx, 
+[2023.12.02-09.22.40:085][  0]LogDeviceProfileManager: 	[00000BB50258E600][00000BB5027F5000 66] Android_Adreno6xx_Vulkan, 
+[2023.12.02-09.22.40:085][  0]LogDeviceProfileManager: 	[00000BB50258E800][00000BB5027F7800 66] Android_Adreno7xx, 
+[2023.12.02-09.22.40:087][  0]LogDeviceProfileManager: 	[00000BB50258EA00][00000BB5027FA000 66] Android_Adreno7xx_Vulkan, 
+[2023.12.02-09.22.40:087][  0]LogDeviceProfileManager: 	[00000BB50258EC00][00000BB5027FC800 66] Android_Mali_T6xx, 
+[2023.12.02-09.22.40:088][  0]LogDeviceProfileManager: 	[00000BB50258EE00][00000BB501310000 66] Android_Mali_T7xx, 
+[2023.12.02-09.22.40:088][  0]LogDeviceProfileManager: 	[00000BB50258F000][00000BB501312800 66] Android_Mali_T8xx, 
+[2023.12.02-09.22.40:089][  0]LogDeviceProfileManager: 	[00000BB50258F200][00000BB501315000 66] Android_Mali_G71, 
+[2023.12.02-09.22.40:090][  0]LogDeviceProfileManager: 	[00000BB50258F400][00000BB501317800 66] Android_Mali_G72, 
+[2023.12.02-09.22.40:090][  0]LogDeviceProfileManager: 	[00000BB50258F600][00000BB50131A000 66] Android_Mali_G72_Vulkan, 
+[2023.12.02-09.22.40:091][  0]LogDeviceProfileManager: 	[00000BB50258F800][00000BB50131C800 66] Android_Mali_G76, 
+[2023.12.02-09.22.40:092][  0]LogDeviceProfileManager: 	[00000BB50258FA00][00000BB501320000 66] Android_Mali_G76_Vulkan, 
+[2023.12.02-09.22.40:093][  0]LogDeviceProfileManager: 	[00000BB50258FC00][00000BB501322800 66] Android_Mali_G77, 
+[2023.12.02-09.22.40:094][  0]LogDeviceProfileManager: 	[00000BB50258FE00][00000BB501325000 66] Android_Mali_G77_Vulkan, 
+[2023.12.02-09.22.40:095][  0]LogDeviceProfileManager: 	[00000BB501F8FE00][00000BB501327800 66] Android_Mali_G78, 
+[2023.12.02-09.22.40:097][  0]LogDeviceProfileManager: 	[00000BB4E0712800][00000BB50132A000 66] Android_Mali_G78_Vulkan, 
+[2023.12.02-09.22.40:098][  0]LogDeviceProfileManager: 	[00000BB501330000][00000BB50132C800 66] Android_Mali_G710, 
+[2023.12.02-09.22.40:099][  0]LogDeviceProfileManager: 	[00000BB501330200][00000BB501340000 66] Android_Mali_G710_Vulkan, 
+[2023.12.02-09.22.40:099][  0]LogDeviceProfileManager: 	[00000BB501330600][00000BB501342800 66] Android_Mali_G7xx, 
+[2023.12.02-09.22.40:100][  0]LogDeviceProfileManager: 	[00000BB501330800][00000BB501345000 66] Android_Mali_G7xx_Vulkan, 
+[2023.12.02-09.22.40:101][  0]LogDeviceProfileManager: 	[00000BB501330A00][00000BB501347800 66] Android_Xclipse_920, 
+[2023.12.02-09.22.40:101][  0]LogDeviceProfileManager: 	[00000BB501330C00][00000BB50134A000 66] Android_Xclipse_920_Vulkan, 
+[2023.12.02-09.22.40:102][  0]LogDeviceProfileManager: 	[00000BB501331000][00000BB50134C800 66] Android_Vulkan_SM5, 
+[2023.12.02-09.22.40:103][  0]LogDeviceProfileManager: 	[00000BB501331200][00000BB502990000 66] Android_PowerVR_G6xxx, 
+[2023.12.02-09.22.40:104][  0]LogDeviceProfileManager: 	[00000BB501331400][00000BB502992800 66] Android_PowerVR_GT7xxx, 
+[2023.12.02-09.22.40:104][  0]LogDeviceProfileManager: 	[00000BB501331600][00000BB502995000 66] Android_PowerVR_GE8xxx, 
+[2023.12.02-09.22.40:105][  0]LogDeviceProfileManager: 	[00000BB501331800][00000BB502997800 66] Android_PowerVR_GM9xxx, 
+[2023.12.02-09.22.40:106][  0]LogDeviceProfileManager: 	[00000BB501331A00][00000BB50299A000 66] Android_PowerVR_GM9xxx_Vulkan, 
+[2023.12.02-09.22.40:106][  0]LogDeviceProfileManager: 	[00000BB501331C00][00000BB50299C800 66] Android_TegraK1, 
+[2023.12.02-09.22.40:107][  0]LogDeviceProfileManager: 	[00000BB501331E00][00000BB5029A0000 66] Android_Unknown_Vulkan, 
+[2023.12.02-09.22.40:107][  0]LogDeviceProfileManager: 	[00000BB501332000][00000BB5029A2800 66] Oculus_Quest, 
+[2023.12.02-09.22.40:108][  0]LogDeviceProfileManager: 	[00000BB501332200][00000BB5029A5000 66] Oculus_Quest2, 
+[2023.12.02-09.22.40:109][  0]LogDeviceProfileManager: 	[00000BB501332400][00000BB5029A7800 66] Meta_Quest_Pro, 
+[2023.12.02-09.22.40:110][  0]LogDeviceProfileManager: 	[00000BB501332600][00000BB5029AA000 66] Meta_Quest_3, 
+[2023.12.02-09.22.40:113][  0]LogDeviceProfileManager: 	[00000BB501332800][00000BB5029AC800 66] HoloLens, 
+[2023.12.02-09.22.40:114][  0]LogDeviceProfileManager: 	[00000BB501332A00][00000BB5029B0000 66] MagicLeap_Vulkan, 
+[2023.12.02-09.22.40:116][  0]LogDeviceProfileManager: Active device profile: [00000BB502583200][00000BB4FF37A000 66] WindowsEditor
+[2023.12.02-09.22.40:118][  0]LogCsvProfiler: Display: Metadata set : deviceprofile="WindowsEditor"
+[2023.12.02-09.22.40:199][  0]LogMeshReduction: Display: Using QuadricMeshReduction for automatic static mesh reduction
+[2023.12.02-09.22.40:199][  0]LogMeshReduction: Display: Using SkeletalMeshReduction for automatic skeletal mesh reduction
+[2023.12.02-09.22.40:201][  0]LogMeshReduction: Display: Using ProxyLODMeshReduction for automatic mesh merging
+[2023.12.02-09.22.40:202][  0]LogMeshReduction: Display: No distributed automatic mesh merging module available
+[2023.12.02-09.22.40:203][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2023.12.02-09.22.40:256][  0]LogTextureEncodingSettings: Display: Texture Encode Speed: Final (cook).
+[2023.12.02-09.22.40:257][  0]LogTextureEncodingSettings: Display: Oodle Texture Encode Speed settings: Fast: RDO Off Lambda=0, Effort=Normal Final: RDO Off Lambda=0, Effort=Normal
+[2023.12.02-09.22.40:259][  0]LogTextureEncodingSettings: Display: Shared linear texture encoding: Disabled
+[2023.12.02-09.22.40:565][  0]LogVirtualization: Display: VirtualizationSystem name found in ini file: None
+[2023.12.02-09.22.40:565][  0]LogVirtualization: Display: FNullVirtualizationSystem mounted, virtualization will be disabled
+[2023.12.02-09.22.40:687][  0]LogLiveCoding: Display: Starting LiveCoding
+[2023.12.02-09.22.40:687][  0]LogLiveCoding: Display: LiveCodingConsole Arguments: UnrealEditor Win64 Development
+[2023.12.02-09.22.40:690][  0]LogLiveCoding: Display: Detected running instance in process group "UE_CyberWar_0xe144cf93", connecting to console process (PID: 33488)
+[2023.12.02-09.22.40:692][  0]LogLiveCoding: Display: Waiting for server
+[2023.12.02-09.22.40:694][  0]LogLiveCoding: Display: Successfully initialized, removing startup thread
+[2023.12.02-09.22.40:695][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize started...
+[2023.12.02-09.22.40:699][  0]LogWorldPartition: Display: FWorldPartitionClassDescRegistry::Initialize took 11 ms
+[2023.12.02-09.22.40:996][  0]LogPython: Using Python 3.9.7
+[2023.12.02-09.22.42:084][  0]LogNiagaraDebuggerClient: Niagara Debugger Client Initialized | Session: 644EAABE4EE6B765494C9289271FEE2F | Instance: FBC7F53A4FC9D8F4B2767BB38ED8CE7A (RST-28160).
+[2023.12.02-09.22.42:117][  0]LogCollectionManager: Loaded 0 collections in 0.001766 seconds
+[2023.12.02-09.22.42:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Saved/Collections/' took 0.00s
+[2023.12.02-09.22.42:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/Developers/range/Collections/' took 0.00s
+[2023.12.02-09.22.42:122][  0]LogFileCache: Scanning file cache for directory 'C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Content/Collections/' took 0.00s
+[2023.12.02-09.22.42:123][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000007 seconds (updated 0 objects)
+[2023.12.02-09.22.42:353][  0]LogVaRest: FVaRestModule::StartupModule(28): VaRest (1.1-r32) module started
+[2023.12.02-09.22.42:641][  0]LogAudio: Display: Registering Engine Module Parameter Interfaces...
+[2023.12.02-09.22.42:705][  0]LogMetasoundEngine: MetaSound Engine Initialized
+[2023.12.02-09.22.42:745][  0]LogSlateStyle: Warning: Missing Resource from 'CoreStyle' Style: 'Unable to find Brush 'Sequencer.Timeline.VanillaScrubHandleDown'.'
+[2023.12.02-09.22.42:867][  0]LogUProjectInfo: Found projects:
+[2023.12.02-09.22.42:872][  0]SourceControl: Revision control is disabled
+[2023.12.02-09.22.43:064][  0]LogOpenImageDenoise: OIDN starting up
+[2023.12.02-09.22.43:261][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.12.02-09.22.43:262][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2023.12.02-09.22.43:502][  0]LogUObjectArray: 32510 objects as part of root set at end of initial load.
+[2023.12.02-09.22.43:502][  0]LogUObjectAllocator: 9719992 out of 0 bytes used by permanent object pool.
+[2023.12.02-09.22.43:505][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2023.12.02-09.22.43:700][  0]LogEngine: Initializing Engine...
+[2023.12.02-09.22.43:702][  0]LogVaRest: UVaRestSubsystem::Initialize(24): VaRest subsystem initialized
+[2023.12.02-09.22.43:704][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2023.12.02-09.22.43:728][  0]LogInit: Initializing FReadOnlyCVARCache
+[2023.12.02-09.22.43:728][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2023.12.02-09.22.43:729][  0]LogInit: Texture streaming: Disabled
+[2023.12.02-09.22.43:769][  0]LogCsvProfiler: Display: Metadata set : largeworldcoordinates="1"
+[2023.12.02-09.22.44:278][  0]LogLinker: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Weapon_Asset\PT\PT_Anaconda\PT_Projectile.uasset: CreateExport: Failed to load Parent for Function /Game/Weapons/Weapon_Original/Weapon_Asset/PT/PT_Anaconda/PT_Projectile.PT_Projectile_C:UserConstructionScript; removing parent information, but keeping function
+[2023.12.02-09.22.44:331][  0]LogLinker: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Items\Weapons\Weap_Anaconda.uasset: CreateExport: Failed to load Parent for Function /Game/Items/Weapons/Weap_Anaconda.Weap_Anaconda_C:UserConstructionScript; removing parent information, but keeping function
+[2023.12.02-09.22.44:739][  0]LogLinker: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Weapon_Asset\AR\AR_AK47\AR_Projectile.uasset: CreateExport: Failed to load Parent for Function /Game/Weapons/Weapon_Original/Weapon_Asset/AR/AR_AK47/AR_Projectile.AR_Projectile_C:UserConstructionScript; removing parent information, but keeping function
+[2023.12.02-09.22.44:768][  0]LogLinker: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Items\Weapons\Weap_AK47.uasset: CreateExport: Failed to load Parent for Function /Game/Items/Weapons/Weap_AK47.Weap_AK47_C:UserConstructionScript; removing parent information, but keeping function
+[2023.12.02-09.22.44:796][  0]LogLinker: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Items\Weapons\Weap_AK47_Blue.uasset: CreateExport: Failed to load Parent for Function /Game/Items/Weapons/Weap_AK47_Blue.Weap_AK47_Blue_C:UserConstructionScript; removing parent information, but keeping function
+[2023.12.02-09.22.44:836][  0]LogLinker: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Items\Weapons\Weap_AK47_Flame.uasset: CreateExport: Failed to load Parent for Function /Game/Items/Weapons/Weap_AK47_Flame.Weap_AK47_Flame_C:UserConstructionScript; removing parent information, but keeping function
+[2023.12.02-09.22.44:840][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Animations\FP\PT_Deagle_Anim.uasset: VerifyImport: Failed to find script package for import object 'Package /Script/PhysXVehicles'
+[2023.12.02-09.22.44:841][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Animations\FP\PT_Deagle_Anim.uasset: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.44:842][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Animations\FP\PT_Deagle_Anim.uasset: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.44:843][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Animations\FP\PT_Deagle_Anim.uasset: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.44:844][  0]LogLinker: Warning: Unable to load Default__PT_Deagle_Anim_C with outer Package /Game/Blueprints/Animations/FP/PT_Deagle_Anim because its class (PT_Deagle_Anim_C) does not exist
+[2023.12.02-09.22.44:845][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Animations\FP\PT_Deagle_Anim.uasset: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.44:846][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Animations\FP\PT_Deagle_Anim.uasset: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.44:847][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Animations\FP\PT_Deagle_Anim.uasset: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.44:848][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Animations\FP\PT_Deagle_Anim.uasset: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.44:884][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Animations\FP\PT_Deagle_Anim.uasset: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.44:887][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Animations\FP\PT_Deagle_Anim.uasset: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.44:889][  0]LogLinker: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Items\Weapons\Weap_Deagle.uasset: CreateExport: Failed to load Parent for Function /Game/Items/Weapons/Weap_Deagle.Weap_Deagle_C:UserConstructionScript; removing parent information, but keeping function
+[2023.12.02-09.22.44:923][  0]LogLinker: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Items\Weapons\Weap_KnifeCombat.uasset: CreateExport: Failed to load Parent for Function /Game/Items/Weapons/Weap_KnifeCombat.Weap_KnifeCombat_C:UserConstructionScript; removing parent information, but keeping function
+[2023.12.02-09.22.45:209][  0]LogAnimation: Warning: Animation Blueprint /Game/Blueprints/Animations/TP/AI_TP_Male.AI_TP_Male has nodes with invalid node guids that have been regenerated. This blueprint will not cook deterministically until it is resaved.
+[2023.12.02-09.22.45:850][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Engine\FPackage.uasset: VerifyImport: Failed to find script package for import object 'Package /Script/VaRestPlugin'
+[2023.12.02-09.22.46:234][  0]LogBlueprint: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\UI\Common\CW_ButtonIcon.uasset: [Compiler] Default value for  InStyle Normal  on  Set Style  has changed and this asset is from a version that may have had incorrect default value information - verify and resave
+[2023.12.02-09.22.46:238][  0]LogBlueprint: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\UI\Common\CW_ButtonIcon.uasset: [Compiler] Default value for  InStyle Hovered  on  Set Style  has changed and this asset is from a version that may have had incorrect default value information - verify and resave
+[2023.12.02-09.22.46:239][  0]LogBlueprint: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\UI\Common\CW_ButtonIcon.uasset: [Compiler] Default value for  InStyle Pressed  on  Set Style  has changed and this asset is from a version that may have had incorrect default value information - verify and resave
+[2023.12.02-09.22.46:971][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Animations\FP\PT_Deagle_Anim.uasset: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.46:974][  0]LogBlueprint: Warning: FMemberReference::ResolveMember (TryGetPawnOwner) bSelfContext == true, but no scope supplied!
+[2023.12.02-09.22.46:975][  0]LogBlueprint: Warning: FMemberReference::ResolveMember (TryGetPawnOwner) bSelfContext == true, but no scope supplied!
+[2023.12.02-09.22.46:976][  0]LogLinker: Warning: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Blueprints\Animations\FP\PT_Deagle_Anim.uasset: CreateExport: Failed to load Parent for AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.50:175][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Weapon_Asset\PT\PT_Anaconda\Meshes\Pistol_Anaconda_000_L1.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:175][  0]LogDeviceProfileManager: Going up to parent DeviceProfile []
+[2023.12.02-09.22.50:178][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Parts_Asset\DotSight\Meshes\DotSight_000_L0.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:179][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Parts_Asset\LaserSight\Meshes\LaserSight_000_L0.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:179][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Parts_Asset\LaserSight\Meshes\LaserSight_001_L0.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:180][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Parts_Asset\LaserSight\Meshes\LaserSight_001_L1.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:181][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Parts_Asset\LightSight\Meshes\LightSight_000_L0.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:182][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Parts_Asset\LightSight\Meshes\LightSight_001_L1.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:182][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Parts_Asset\LightSight\Meshes\LightSight_001_L0.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:183][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Weapon_Asset\AR\AR_AK47\Meshes\AR_AK47_001_L1.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:184][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Weapon_Asset\AR\AR_AK47\Meshes\AR_AK47_002_L1.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:184][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Weapon_Asset\AR\AR_AK47\Meshes\AR_AK47_002_L0.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:185][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Weapon_Asset\AR\AR_AK47\Meshes\AR_AK47_001_L0.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:186][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Parts_Asset\DotSight\Meshes\DotSight_001_L0.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:186][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Weapon_Asset\PT\PT_Deagle\Meshes\Pistol_Deagle_000_L1.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:188][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Weapon_Asset\PT\PT_Deagle\Meshes\Pistol_Deagle_000_L0.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:188][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Weapon_Asset\KN\Knife_Combat\Meshes\Knife_CombatKnife_000_L1.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:192][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Weapons\Weapon_Original\Weapon_Asset\KN\Knife_Combat\Meshes\Knife_CombatKnife_000_L0.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:193][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Characters\CH_Original\PC_Third_Person\PC_TP_Male\PC_TP_Male_Red01\PC_TP_Male_Red01.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:194][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Characters\CH_Original\PC_Third_Person\PC_TP_Male\PC_TP_Male_Red01\PC_TP_Male_Red01_Lobby.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:195][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Characters\CH_Original\PC_Third_Person\PC_TP_Male\PC_TP_Male_Red02\PC_TP_Male_Red02_Lobby.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:195][  0]LogSkeletalMesh: Display: [AssetLog] C:\Users\range\Documents\GitHub\Cyber-War\CyberWar\Content\Characters\CH_Original\PC_Third_Person\PC_TP_Male\PC_TP_Male_Red02\PC_TP_Male_Red02.uasset: Find and fix some bad tangent! please re-import this skeletal mesh asset to fix the issue. The shading of the skeletal mesh will be bad and faceted.
+[2023.12.02-09.22.50:196][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-09.22.50:198][  0]LogLowEntrySocket: SocketConnection SendBufferSize changed to 5242880
+[2023.12.02-09.22.50:198][  0]LogLowEntrySocket: SocketConnection ReceiveBufferSize changed to 5242880
+[2023.12.02-09.22.50:202][  0]LogInit: Display: Game Engine Initialized.
+[2023.12.02-09.22.50:203][  0]LogNiagaraEditor: GEditor isn't valid! Particle reset commands will not work for Niagara components!
+[2023.12.02-09.22.50:233][  0]LogInit: Display: Starting Game.
+[2023.12.02-09.22.50:234][  0]LogAssetRegistry: Warning: GetFirstPackageByName is being called in `-game` to resolve partial package name. This may cause a slow scan on disk. Consider using the fully qualified package name for better performance. 
+[2023.12.02-09.22.50:394][  0]LogPackageName: SearchForPackageOnDisk took   0.157s to resolve Testing.
+[2023.12.02-09.22.50:394][  0]LogNet: Browse: /Game/Maps/Testing?Name=Player
+[2023.12.02-09.22.50:396][  0]LogLoad: LoadMap: /Game/Maps/Testing?Name=Player
+[2023.12.02-09.22.50:397][  0]LogWorld: BeginTearingDown for /Temp/Untitled_0
+[2023.12.02-09.22.50:398][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2023.12.02-09.22.50:448][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
+[2023.12.02-09.22.50:449][  0]LogTurnkeySupport: Turnkey Platform: Android: (Status=Invalid, Allowed_Sdk=r25b, Current_Sdk=, Allowed_AutoSdk=r25b, Current_AutoSdk=, Flags="Platform_InvalidHostPrerequisites", Error="Android Studio is not installed correctly.")
+[2023.12.02-09.22.50:450][  0]LogTurnkeySupport: Turnkey Platform: IOS: (Status=Invalid, MinAllowed_Sdk=1100.0.0.0, MaxAllowed_Sdk=8999.0, Current_Sdk=, Allowed_AutoSdk=14.1, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2023.12.02-09.22.50:450][  0]LogTurnkeySupport: Turnkey Platform: Linux: (Status=Invalid, Allowed_Sdk=v22_clang-16.0.6-centos7, Current_Sdk=, Allowed_AutoSdk=v22_clang-16.0.6-centos7, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2023.12.02-09.22.50:451][  0]LogTurnkeySupport: Turnkey Platform: LinuxArm64: (Status=Invalid, Allowed_Sdk=v22_clang-16.0.6-centos7, Current_Sdk=, Allowed_AutoSdk=v22_clang-16.0.6-centos7, Current_AutoSdk=, Flags="Platform_ValidHostPrerequisites")
+[2023.12.02-09.22.50:452][  0]LogTurnkeySupport: Turnkey Platform: Win64: (Status=Valid, MinAllowed_Sdk=10.0.00000.0, MaxAllowed_Sdk=10.9.99999.0, Current_Sdk=10.0.22621.0, Allowed_AutoSdk=10.0.18362.0, Current_AutoSdk=, Flags="InstalledSdk_ValidVersionExists")
+[2023.12.02-09.22.50:459][  0]LogTurnkeySupport: Running Turnkey device detection: ' -ScriptsForProject="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/CyberWar.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Intermediate/TurnkeyReport_1.log" -log="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Intermediate/TurnkeyLog_1.log" -project="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/CyberWar.uproject"  -Device=Win64@RST'
+[2023.12.02-09.22.50:459][  0]LogMonitoredProcess: Running Serialized UAT: [ cmd.exe /c ""Z:/UE/UE_5.3/Engine/Build/BatchFiles/RunUAT.bat"  -ScriptsForProject="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/CyberWar.uproject" Turnkey -utf8output -WaitForUATMutex -command=VerifySdk -ReportFilename="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Intermediate/TurnkeyReport_1.log" -log="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/Intermediate/TurnkeyLog_1.log" -project="C:/Users/range/Documents/GitHub/Cyber-War/CyberWar/CyberWar.uproject"  -Device=Win64@RST" -nocompile -nocompileuat ]
+[2023.12.02-09.22.50:540][  0]LogTexture: Default maximum texture size for cubemaps generated from long-lat sources has been changed from 512 to unlimited. In order to preserve old behavior for '/Game/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.HDRI_Epic_Courtyard_Daylight', its maximum texture size has been explicitly set to 512.
+[2023.12.02-09.22.50:547][  0]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.02-09.22.50:549][  0]LogAIModule: Creating AISystem for world Testing
+[2023.12.02-09.22.50:550][  0]LogLoad: Game class is 'CW_GameMode_C'
+[2023.12.02-09.22.50:551][  0]LogNet: ReplicationDriverClass is null! Not using ReplicationDriver.
+[2023.12.02-09.22.50:551][  0]LogNetCore: DDoS detection status: detection enabled: 0 analytics enabled: 0
+[2023.12.02-09.22.50:552][  0]LogInit: WinSock: Socket queue. Rx: 131072 (config 131072) Tx: 131072 (config 131072)
+[2023.12.02-09.22.50:553][  0]LogNet: Created socket for bind address: 0.0.0.0:17777
+[2023.12.02-09.22.50:554][  0]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.12.02-09.22.50:555][  0]LogNet: GameNetDriver IpNetDriver_0 IpNetDriver listening on port 17777
+[2023.12.02-09.22.50:557][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Engine/EngineSky/SM_SkySphere.SM_SkySphere being ready before playing
+[2023.12.02-09.22.50:557][  0]LogStaticMesh: Display: Waiting on static mesh StaticMesh /Engine/MapTemplates/SM_Template_Map_Floor.SM_Template_Map_Floor being ready before playing
+[2023.12.02-09.22.50:571][  0]LogWorld: Bringing World /Game/Maps/Testing.Testing up for play (max tick rate 30) at 2023.12.02-12.22.50
+[2023.12.02-09.22.50:572][  0]LogWorld: Bringing up level for play took: 0.013069
+[2023.12.02-09.22.50:572][  0]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.02-09.22.50:572][  0]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2023.12.02-09.22.50:573][  0]LogLoad: Took 0.176887 seconds to LoadMap(/Game/Maps/Testing)
+[2023.12.02-09.22.50:599][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2023.12.02-09.22.50:599][  0]LogLoad: (Engine Initialization) Total time: 15.83 seconds
+[2023.12.02-09.22.50:601][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2023.12.02-09.22.50:635][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'UberGraphFrame': AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.50:638][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'ExecuteUbergraph_PT_Deagle_Anim': AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.50:639][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'EntryPoint': Function /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C:ExecuteUbergraph_PT_Deagle_Anim
+[2023.12.02-09.22.50:639][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AnimGraphNode_Root_B971B0F241C5414BE650D0ADE99A4878': AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.50:641][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AnimGraphNode_SequencePlayer_69432CF1477DB6A91474C997D5418C6E': AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.50:641][  0]LoadErrors: Warning: CreateExport: Failed to load Outer for resource 'AnimGraphNode_Slot_BC0DFAEC4794D4414FF8E1806CCE92CE': AnimBlueprintGeneratedClass /Game/Blueprints/Animations/FP/PT_Deagle_Anim.PT_Deagle_Anim_C
+[2023.12.02-09.22.50:660][  0]LogAutomationController: Ignoring very large delta of 16854421.50 seconds in calls to FAutomationControllerManager::Tick() and not penalizing unresponsive tests
+[2023.12.02-09.22.50:715][  1]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
+
+[2023.12.02-09.22.50:720][  1]Running Python start-up script 'Z:/UE/UE_5.3/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.058177 secs
+[2023.12.02-09.22.50:726][  1]LogBlueprintUserMessages: [CW_GameInstance_C_0] :( 50:726 ) - Соединение с сервером установлено CW_GameInstance
+[2023.12.02-09.22.50:726][  1]LogBlueprintUserMessages: [CW_GameInstance_C_0] :( 50:726 ) - Send Package: {"action":"add","data":{"name":"Russian Public","type":2,"ip":"127.0.0.1","port":17777,"max_players":12,"mode":"CW_GameMode_C_0"}}
+[2023.12.02-09.22.51:796][ 33]LogTurnkeySupport: Completed device detection: Code = 0
+[2023.12.02-09.22.51:796][ 33]LogTurnkeySupport: Turnkey Device: Win64@RST: (Name=RST, Type=Computer, Status=Valid, MinAllowed=10.0.18362.0, MaxAllowed=, Current=10.0.19045.0, Flags="Device_InstallSoftwareValid")
+[2023.12.02-09.22.59:172][253]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59093
+[2023.12.02-09.22.59:172][253]LogNetVersion: CyberWar 1.0.0.0, NetCL: 27405482, EngineNetworkVersion: 32, GameNetworkVersion: 0 (Checksum: 3445598224)
+[2023.12.02-09.22.59:174][253]LogHandshake: SendConnectChallenge. Timestamp: 8.570207, Cookie: 035125218103173122186253065224049009060088010035125211216212
+[2023.12.02-09.22.59:205][254]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:59093
+[2023.12.02-09.22.59:205][254]LogHandshake: SendChallengeAck. InCookie: 035125218103173122186253065224049009060088010035125211216212
+[2023.12.02-09.22.59:207][254]LogNet: Server accepting post-challenge connection from: 127.0.0.1:59093
+[2023.12.02-09.22.59:208][254]LogNet: IpConnection_0 setting maximum channels to: 32767
+[2023.12.02-09.22.59:209][254]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.12.02-09.22.59:210][254]LogNet: NotifyAcceptedConnection: Name: Testing, TimeStamp: 12/02/23 12:22:59, [UNetConnection] RemoteAddr: 127.0.0.1:59093, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.12.02-09.22.59:211][254]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:59093, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.12.02-09.22.59:238][255]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Testing.Testing: Accepted
+[2023.12.02-09.22.59:238][255]LogNet: Remote platform little endian=1
+[2023.12.02-09.22.59:240][255]LogNet: This platform little endian=1
+[2023.12.02-09.22.59:271][256]LogNet: Login request:  userId: UNKNOWN platform: None
+[2023.12.02-09.22.59:304][257]LogNet: Client netspeed is 100000
+[2023.12.02-09.22.59:371][259]LogNet: Join request: /Game/Maps/Testing?SplitscreenCount=1
+[2023.12.02-09.22.59:373][259]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PlayerStarts' of length 0 in '/Game/Blueprints/Online/CW_GameMode.CW_GameMode_C:GetPlayerStart'!
+[2023.12.02-09.22.59:374][259]LogScript: Warning: Script Msg called by: CW_GameMode_C /Game/Maps/Testing.Testing:PersistentLevel.CW_GameMode_C_0
+[2023.12.02-09.22.59:374][259]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PlayerStarts' of length 0 in '/Game/Blueprints/Online/CW_GameMode.CW_GameMode_C:GetPlayerStart'!
+[2023.12.02-09.22.59:377][259]LogScript: Warning: Script Msg called by: CW_GameMode_C /Game/Maps/Testing.Testing:PersistentLevel.CW_GameMode_C_0
+[2023.12.02-09.22.59:378][259]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2023.12.02-09.22.59:379][259]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PlayerStarts' of length 0 in '/Game/Blueprints/Online/CW_GameMode.CW_GameMode_C:GetPlayerStart'!
+[2023.12.02-09.22.59:380][259]LogScript: Warning: Script Msg called by: CW_GameMode_C /Game/Maps/Testing.Testing:PersistentLevel.CW_GameMode_C_0
+[2023.12.02-09.22.59:385][259]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 59:385 ) - Новый владелец
+[2023.12.02-09.22.59:387][259]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 59:387 ) - Новый владелец
+[2023.12.02-09.22.59:388][259]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 59:388 ) - Новый владелец
+[2023.12.02-09.22.59:388][259]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 59:388 ) - OnSelectedWeapon
+[2023.12.02-09.22.59:390][259]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2023.12.02-09.22.59:393][259]LogNet: Join succeeded: 256
+[2023.12.02-09.22.59:407][260]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Red_Male_01_C /Game/Maps/Testing.Testing:PersistentLevel.CW_Character_C_0.Red_Male_01_C_0 NOT Supported.
+[2023.12.02-09.22.59:439][261]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Red_Male_01_C /Game/Maps/Testing.Testing:PersistentLevel.CW_Character_C_0.Red_Male_01_C_0 NOT Supported.
+[2023.12.02-09.23.01:109][311]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 1:109 ) - OnCaseWeapon
+[2023.12.02-09.23.01:109][311]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 1:109 ) - OnSelectedWeapon
+[2023.12.02-09.23.01:376][319]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 1:376 ) - OnCaseWeapon
+[2023.12.02-09.23.01:376][319]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 1:376 ) - OnSelectedWeapon
+[2023.12.02-09.23.01:578][325]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 1:578 ) - OnCaseWeapon
+[2023.12.02-09.23.01:579][325]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 1:579 ) - OnSelectedWeapon
+[2023.12.02-09.23.40:340][488]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 40:340 ) - OnCaseWeapon
+[2023.12.02-09.23.40:340][488]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 40:340 ) - OnSelectedWeapon
+[2023.12.02-09.23.41:310][517]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 41:310 ) - OnCaseWeapon
+[2023.12.02-09.23.41:310][517]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 41:310 ) - OnSelectedWeapon
+[2023.12.02-09.23.42:412][550]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 42:412 ) - OnCaseWeapon
+[2023.12.02-09.23.42:412][550]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 42:412 ) - OnSelectedWeapon
+[2023.12.02-09.23.43:012][568]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 43:12 ) - OnCaseWeapon
+[2023.12.02-09.23.43:012][568]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 43:12 ) - OnSelectedWeapon
+[2023.12.02-09.23.55:921][955]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 55:921 ) - OnCaseWeapon
+[2023.12.02-09.23.55:921][955]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 55:921 ) - OnSelectedWeapon
+[2023.12.02-09.24.03:199][173]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 3:199 ) - OnCaseWeapon
+[2023.12.02-09.24.03:200][173]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 3:200 ) - OnSelectedWeapon
+[2023.12.02-09.24.03:701][188]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 3:701 ) - OnCaseWeapon
+[2023.12.02-09.24.03:702][188]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 3:702 ) - OnSelectedWeapon
+[2023.12.02-09.24.04:169][202]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 4:169 ) - OnCaseWeapon
+[2023.12.02-09.24.04:169][202]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 4:169 ) - OnSelectedWeapon
+[2023.12.02-09.24.04:400][209]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 4:400 ) - OnCaseWeapon
+[2023.12.02-09.24.04:400][209]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 4:400 ) - OnSelectedWeapon
+[2023.12.02-09.24.04:502][212]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 4:502 ) - OnCaseWeapon
+[2023.12.02-09.24.04:502][212]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 4:502 ) - OnSelectedWeapon
+[2023.12.02-09.24.04:603][215]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 4:603 ) - OnCaseWeapon
+[2023.12.02-09.24.04:603][215]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 4:603 ) - OnSelectedWeapon
+[2023.12.02-09.24.04:838][222]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 4:838 ) - OnCaseWeapon
+[2023.12.02-09.24.04:838][222]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 4:838 ) - OnSelectedWeapon
+[2023.12.02-09.24.04:971][226]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 4:971 ) - OnCaseWeapon
+[2023.12.02-09.24.04:972][226]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 4:972 ) - OnSelectedWeapon
+[2023.12.02-09.24.05:005][227]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 5:5 ) - OnCaseWeapon
+[2023.12.02-09.24.05:006][227]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 5:5 ) - OnSelectedWeapon
+[2023.12.02-09.24.05:138][231]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 5:138 ) - OnCaseWeapon
+[2023.12.02-09.24.05:138][231]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 5:138 ) - OnSelectedWeapon
+[2023.12.02-09.24.05:205][233]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 5:205 ) - OnCaseWeapon
+[2023.12.02-09.24.05:206][233]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 5:206 ) - OnSelectedWeapon
+[2023.12.02-09.24.05:305][236]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 5:305 ) - OnCaseWeapon
+[2023.12.02-09.24.05:305][236]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 5:305 ) - OnSelectedWeapon
+[2023.12.02-09.24.05:438][240]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 5:438 ) - OnCaseWeapon
+[2023.12.02-09.24.05:438][240]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 5:438 ) - OnSelectedWeapon
+[2023.12.02-09.24.05:471][241]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 5:471 ) - OnCaseWeapon
+[2023.12.02-09.24.05:471][241]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 5:471 ) - OnSelectedWeapon
+[2023.12.02-09.24.05:571][244]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 5:571 ) - OnCaseWeapon
+[2023.12.02-09.24.05:571][244]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 5:571 ) - OnSelectedWeapon
+[2023.12.02-09.24.05:737][249]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 5:737 ) - OnCaseWeapon
+[2023.12.02-09.24.05:737][249]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 5:737 ) - OnSelectedWeapon
+[2023.12.02-09.24.05:805][251]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 5:805 ) - OnCaseWeapon
+[2023.12.02-09.24.05:805][251]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 5:805 ) - OnSelectedWeapon
+[2023.12.02-09.24.05:905][254]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 5:905 ) - OnCaseWeapon
+[2023.12.02-09.24.05:905][254]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 5:905 ) - OnSelectedWeapon
+[2023.12.02-09.24.06:039][258]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 6:39 ) - OnCaseWeapon
+[2023.12.02-09.24.06:039][258]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 6:39 ) - OnSelectedWeapon
+[2023.12.02-09.24.06:042][258]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 6:42 ) - OnCaseWeapon
+[2023.12.02-09.24.06:043][258]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 6:43 ) - OnSelectedWeapon
+[2023.12.02-09.24.06:205][263]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 6:205 ) - OnCaseWeapon
+[2023.12.02-09.24.06:205][263]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 6:205 ) - OnSelectedWeapon
+[2023.12.02-09.24.06:305][266]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 6:305 ) - OnCaseWeapon
+[2023.12.02-09.24.06:305][266]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 6:305 ) - OnSelectedWeapon
+[2023.12.02-09.24.06:307][266]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 6:307 ) - OnCaseWeapon
+[2023.12.02-09.24.06:308][266]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 6:308 ) - OnSelectedWeapon
+[2023.12.02-09.24.06:439][270]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 6:439 ) - OnCaseWeapon
+[2023.12.02-09.24.06:439][270]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 6:439 ) - OnSelectedWeapon
+[2023.12.02-09.24.06:539][273]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 6:539 ) - OnCaseWeapon
+[2023.12.02-09.24.06:539][273]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 6:539 ) - OnSelectedWeapon
+[2023.12.02-09.24.06:542][273]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 6:542 ) - OnCaseWeapon
+[2023.12.02-09.24.06:542][273]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 6:542 ) - OnSelectedWeapon
+[2023.12.02-09.24.06:706][278]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 6:706 ) - OnCaseWeapon
+[2023.12.02-09.24.06:706][278]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 6:706 ) - OnSelectedWeapon
+[2023.12.02-09.24.06:804][281]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 6:804 ) - OnCaseWeapon
+[2023.12.02-09.24.06:805][281]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 6:805 ) - OnSelectedWeapon
+[2023.12.02-09.24.06:807][281]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 6:807 ) - OnCaseWeapon
+[2023.12.02-09.24.06:808][281]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 6:808 ) - OnSelectedWeapon
+[2023.12.02-09.24.06:971][286]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 6:971 ) - OnCaseWeapon
+[2023.12.02-09.24.06:972][286]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 6:971 ) - OnSelectedWeapon
+[2023.12.02-09.24.07:071][289]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 7:71 ) - OnCaseWeapon
+[2023.12.02-09.24.07:072][289]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 7:72 ) - OnSelectedWeapon
+[2023.12.02-09.24.07:205][293]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 7:205 ) - OnCaseWeapon
+[2023.12.02-09.24.07:205][293]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 7:205 ) - OnSelectedWeapon
+[2023.12.02-09.24.07:305][296]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 7:305 ) - OnCaseWeapon
+[2023.12.02-09.24.07:305][296]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 7:305 ) - OnSelectedWeapon
+[2023.12.02-09.24.07:438][300]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 7:438 ) - OnCaseWeapon
+[2023.12.02-09.24.07:438][300]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 7:438 ) - OnSelectedWeapon
+[2023.12.02-09.24.07:504][302]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 7:504 ) - OnCaseWeapon
+[2023.12.02-09.24.07:505][302]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 7:505 ) - OnSelectedWeapon
+[2023.12.02-09.24.07:638][306]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 7:638 ) - OnCaseWeapon
+[2023.12.02-09.24.07:638][306]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 7:638 ) - OnSelectedWeapon
+[2023.12.02-09.24.07:771][310]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 7:771 ) - OnCaseWeapon
+[2023.12.02-09.24.07:771][310]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 7:771 ) - OnSelectedWeapon
+[2023.12.02-09.24.07:805][311]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 7:805 ) - OnCaseWeapon
+[2023.12.02-09.24.07:805][311]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 7:805 ) - OnSelectedWeapon
+[2023.12.02-09.24.07:938][315]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 7:938 ) - OnCaseWeapon
+[2023.12.02-09.24.07:938][315]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 7:938 ) - OnSelectedWeapon
+[2023.12.02-09.24.08:071][319]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 8:71 ) - OnCaseWeapon
+[2023.12.02-09.24.08:071][319]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 8:71 ) - OnSelectedWeapon
+[2023.12.02-09.24.08:138][321]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 8:138 ) - OnCaseWeapon
+[2023.12.02-09.24.08:138][321]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 8:138 ) - OnSelectedWeapon
+[2023.12.02-09.24.08:237][324]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 8:237 ) - OnCaseWeapon
+[2023.12.02-09.24.08:237][324]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 8:237 ) - OnSelectedWeapon
+[2023.12.02-09.24.08:405][329]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 8:405 ) - OnCaseWeapon
+[2023.12.02-09.24.08:405][329]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 8:405 ) - OnSelectedWeapon
+[2023.12.02-09.24.08:539][333]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 8:539 ) - OnCaseWeapon
+[2023.12.02-09.24.08:539][333]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 8:539 ) - OnSelectedWeapon
+[2023.12.02-09.24.08:572][334]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 8:572 ) - OnCaseWeapon
+[2023.12.02-09.24.08:572][334]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 8:572 ) - OnSelectedWeapon
+[2023.12.02-09.24.08:741][339]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 8:741 ) - OnCaseWeapon
+[2023.12.02-09.24.08:741][339]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 8:741 ) - OnSelectedWeapon
+[2023.12.02-09.24.08:774][340]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 8:774 ) - OnCaseWeapon
+[2023.12.02-09.24.08:774][340]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 8:774 ) - OnSelectedWeapon
+[2023.12.02-09.24.08:909][344]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 8:909 ) - OnCaseWeapon
+[2023.12.02-09.24.08:909][344]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 8:909 ) - OnSelectedWeapon
+[2023.12.02-09.24.09:043][348]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 9:43 ) - OnCaseWeapon
+[2023.12.02-09.24.09:043][348]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 9:43 ) - OnSelectedWeapon
+[2023.12.02-09.24.09:076][349]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 9:76 ) - OnCaseWeapon
+[2023.12.02-09.24.09:077][349]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 9:76 ) - OnSelectedWeapon
+[2023.12.02-09.24.09:209][353]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 9:209 ) - OnCaseWeapon
+[2023.12.02-09.24.09:209][353]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 9:209 ) - OnSelectedWeapon
+[2023.12.02-09.24.10:813][401]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 10:813 ) - OnCaseWeapon
+[2023.12.02-09.24.10:813][401]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 10:813 ) - OnSelectedWeapon
+[2023.12.02-09.24.10:945][405]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 10:945 ) - OnCaseWeapon
+[2023.12.02-09.24.10:945][405]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 10:945 ) - OnSelectedWeapon
+[2023.12.02-09.24.11:047][408]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 11:47 ) - OnCaseWeapon
+[2023.12.02-09.24.11:048][408]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 11:48 ) - OnSelectedWeapon
+[2023.12.02-09.24.11:179][412]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 11:179 ) - OnCaseWeapon
+[2023.12.02-09.24.11:180][412]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 11:180 ) - OnSelectedWeapon
+[2023.12.02-09.24.11:279][415]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 11:279 ) - OnCaseWeapon
+[2023.12.02-09.24.11:279][415]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 11:279 ) - OnSelectedWeapon
+[2023.12.02-09.24.11:347][417]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 11:347 ) - OnCaseWeapon
+[2023.12.02-09.24.11:347][417]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 11:347 ) - OnSelectedWeapon
+[2023.12.02-09.24.11:982][436]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 11:982 ) - OnCaseWeapon
+[2023.12.02-09.24.11:982][436]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 11:982 ) - OnSelectedWeapon
+[2023.12.02-09.24.12:116][440]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 12:116 ) - OnCaseWeapon
+[2023.12.02-09.24.12:117][440]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 12:117 ) - OnSelectedWeapon
+[2023.12.02-09.24.12:181][442]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 12:181 ) - OnCaseWeapon
+[2023.12.02-09.24.12:181][442]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 12:181 ) - OnSelectedWeapon
+[2023.12.02-09.24.12:480][451]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 12:480 ) - OnCaseWeapon
+[2023.12.02-09.24.12:480][451]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 12:480 ) - OnSelectedWeapon
+[2023.12.02-09.24.12:547][453]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 12:547 ) - OnCaseWeapon
+[2023.12.02-09.24.12:547][453]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 12:547 ) - OnSelectedWeapon
+[2023.12.02-09.24.12:615][455]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 12:615 ) - OnCaseWeapon
+[2023.12.02-09.24.12:615][455]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 12:615 ) - OnSelectedWeapon
+[2023.12.02-09.24.12:917][464]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 12:917 ) - OnCaseWeapon
+[2023.12.02-09.24.12:917][464]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 12:917 ) - OnSelectedWeapon
+[2023.12.02-09.24.12:983][466]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 12:983 ) - OnCaseWeapon
+[2023.12.02-09.24.12:983][466]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 12:983 ) - OnSelectedWeapon
+[2023.12.02-09.24.13:016][467]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 13:16 ) - OnCaseWeapon
+[2023.12.02-09.24.13:016][467]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 13:16 ) - OnSelectedWeapon
+[2023.12.02-09.24.13:317][476]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 13:317 ) - OnCaseWeapon
+[2023.12.02-09.24.13:317][476]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 13:317 ) - OnSelectedWeapon
+[2023.12.02-09.24.13:350][477]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 13:350 ) - OnCaseWeapon
+[2023.12.02-09.24.13:351][477]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 13:351 ) - OnSelectedWeapon
+[2023.12.02-09.24.13:451][480]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 13:451 ) - OnCaseWeapon
+[2023.12.02-09.24.13:452][480]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 13:452 ) - OnSelectedWeapon
+[2023.12.02-09.24.13:651][486]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 13:651 ) - OnCaseWeapon
+[2023.12.02-09.24.13:651][486]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 13:651 ) - OnSelectedWeapon
+[2023.12.02-09.24.13:751][489]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 13:751 ) - OnCaseWeapon
+[2023.12.02-09.24.13:751][489]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 13:751 ) - OnSelectedWeapon
+[2023.12.02-09.24.13:784][490]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 13:784 ) - OnCaseWeapon
+[2023.12.02-09.24.13:784][490]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 13:784 ) - OnSelectedWeapon
+[2023.12.02-09.24.13:985][496]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 13:985 ) - OnCaseWeapon
+[2023.12.02-09.24.13:985][496]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 13:985 ) - OnSelectedWeapon
+[2023.12.02-09.24.14:018][497]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 14:18 ) - OnCaseWeapon
+[2023.12.02-09.24.14:018][497]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 14:18 ) - OnSelectedWeapon
+[2023.12.02-09.24.14:119][500]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 14:119 ) - OnCaseWeapon
+[2023.12.02-09.24.14:120][500]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 14:120 ) - OnSelectedWeapon
+[2023.12.02-09.24.14:286][505]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 14:286 ) - OnCaseWeapon
+[2023.12.02-09.24.14:287][505]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 14:287 ) - OnSelectedWeapon
+[2023.12.02-09.24.14:320][506]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 14:320 ) - OnCaseWeapon
+[2023.12.02-09.24.14:320][506]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 14:320 ) - OnSelectedWeapon
+[2023.12.02-09.24.14:387][508]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 14:387 ) - OnCaseWeapon
+[2023.12.02-09.24.14:387][508]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 14:387 ) - OnSelectedWeapon
+[2023.12.02-09.24.14:520][512]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 14:520 ) - OnCaseWeapon
+[2023.12.02-09.24.14:521][512]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 14:521 ) - OnSelectedWeapon
+[2023.12.02-09.24.14:523][512]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 14:523 ) - OnCaseWeapon
+[2023.12.02-09.24.14:524][512]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 14:524 ) - OnSelectedWeapon
+[2023.12.02-09.24.14:686][517]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 14:686 ) - OnCaseWeapon
+[2023.12.02-09.24.14:686][517]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 14:686 ) - OnSelectedWeapon
+[2023.12.02-09.24.14:786][520]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 14:786 ) - OnCaseWeapon
+[2023.12.02-09.24.14:786][520]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 14:786 ) - OnSelectedWeapon
+[2023.12.02-09.24.14:951][525]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 14:951 ) - OnCaseWeapon
+[2023.12.02-09.24.14:952][525]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 14:952 ) - OnSelectedWeapon
+[2023.12.02-09.24.14:985][526]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 14:985 ) - OnCaseWeapon
+[2023.12.02-09.24.14:985][526]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 14:985 ) - OnSelectedWeapon
+[2023.12.02-09.24.15:185][532]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 15:185 ) - OnCaseWeapon
+[2023.12.02-09.24.15:185][532]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 15:185 ) - OnSelectedWeapon
+[2023.12.02-09.24.15:188][532]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 15:188 ) - OnCaseWeapon
+[2023.12.02-09.24.15:189][532]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 15:188 ) - OnSelectedWeapon
+[2023.12.02-09.24.16:520][572]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 16:520 ) - OnCaseWeapon
+[2023.12.02-09.24.16:520][572]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 16:520 ) - OnSelectedWeapon
+[2023.12.02-09.24.16:587][574]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 16:587 ) - OnCaseWeapon
+[2023.12.02-09.24.16:587][574]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 16:587 ) - OnSelectedWeapon
+[2023.12.02-09.24.16:721][578]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 16:721 ) - OnCaseWeapon
+[2023.12.02-09.24.16:721][578]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 16:721 ) - OnSelectedWeapon
+[2023.12.02-09.24.16:854][582]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 16:854 ) - OnCaseWeapon
+[2023.12.02-09.24.16:854][582]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 16:854 ) - OnSelectedWeapon
+[2023.12.02-09.24.16:887][583]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 16:887 ) - OnCaseWeapon
+[2023.12.02-09.24.16:887][583]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 16:887 ) - OnSelectedWeapon
+[2023.12.02-09.24.16:988][586]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 16:988 ) - OnCaseWeapon
+[2023.12.02-09.24.16:988][586]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 16:988 ) - OnSelectedWeapon
+[2023.12.02-09.24.17:122][590]LogBlueprintUserMessages: [Weap_KnifeCombat_C_0] :( 17:122 ) - OnCaseWeapon
+[2023.12.02-09.24.17:122][590]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 17:122 ) - OnSelectedWeapon
+[2023.12.02-09.24.17:125][590]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 17:125 ) - OnCaseWeapon
+[2023.12.02-09.24.17:126][590]LogBlueprintUserMessages: [Weap_Deagle_C_0] :( 17:126 ) - OnSelectedWeapon
+[2023.12.02-09.24.57:949][816]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2023.12.02-09.24.57:949][816]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59093, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: CW_PlayerController_C_0, Owner: CW_PlayerController_C_0, UniqueId: INVALID
+[2023.12.02-09.24.57:952][816]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:59093, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: CW_PlayerController_C_0, Owner: CW_PlayerController_C_0, UniqueId: INVALID, Channels: 17, Time: 2023.12.02-09.24.57
+[2023.12.02-09.24.57:953][816]LogNet: UNetConnection::SendCloseReason:
+[2023.12.02-09.24.57:954][816]LogNet:  - Result=ControlChannelClose, ErrorContext="ControlChannelClose"
+[2023.12.02-09.24.57:955][816]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:59093, Name: IpConnection_0, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: CW_PlayerController_C_0, Owner: CW_PlayerController_C_0, UniqueId: INVALID
+[2023.12.02-09.25.28:020][711]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60896
+[2023.12.02-09.25.28:020][711]LogHandshake: SendConnectChallenge. Timestamp: 157.418346, Cookie: 004041061144001133208100039111119100207166227019071017112153
+[2023.12.02-09.25.28:054][712]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:60896
+[2023.12.02-09.25.28:054][712]LogHandshake: SendChallengeAck. InCookie: 004041061144001133208100039111119100207166227019071017112153
+[2023.12.02-09.25.28:055][712]LogNet: Server accepting post-challenge connection from: 127.0.0.1:60896
+[2023.12.02-09.25.28:056][712]LogNet: IpConnection_1 setting maximum channels to: 32767
+[2023.12.02-09.25.28:057][712]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.12.02-09.25.28:060][712]LogNet: NotifyAcceptedConnection: Name: Testing, TimeStamp: 12/02/23 12:25:28, [UNetConnection] RemoteAddr: 127.0.0.1:60896, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.12.02-09.25.28:062][712]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:60896, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.12.02-09.25.28:088][713]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Testing.Testing: Accepted
+[2023.12.02-09.25.28:088][713]LogNet: Remote platform little endian=1
+[2023.12.02-09.25.28:089][713]LogNet: This platform little endian=1
+[2023.12.02-09.25.28:121][714]LogNet: Login request:  userId: UNKNOWN platform: None
+[2023.12.02-09.25.28:154][715]LogNet: Client netspeed is 100000
+[2023.12.02-09.25.28:220][717]LogNet: Join request: /Game/Maps/Testing?SplitscreenCount=1
+[2023.12.02-09.25.28:221][717]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PlayerStarts' of length 0 in '/Game/Blueprints/Online/CW_GameMode.CW_GameMode_C:GetPlayerStart'!
+[2023.12.02-09.25.28:225][717]LogScript: Warning: Script Msg called by: CW_GameMode_C /Game/Maps/Testing.Testing:PersistentLevel.CW_GameMode_C_0
+[2023.12.02-09.25.28:226][717]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PlayerStarts' of length 0 in '/Game/Blueprints/Online/CW_GameMode.CW_GameMode_C:GetPlayerStart'!
+[2023.12.02-09.25.28:227][717]LogScript: Warning: Script Msg called by: CW_GameMode_C /Game/Maps/Testing.Testing:PersistentLevel.CW_GameMode_C_0
+[2023.12.02-09.25.28:229][717]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PlayerStarts' of length 0 in '/Game/Blueprints/Online/CW_GameMode.CW_GameMode_C:GetPlayerStart'!
+[2023.12.02-09.25.28:230][717]LogScript: Warning: Script Msg called by: CW_GameMode_C /Game/Maps/Testing.Testing:PersistentLevel.CW_GameMode_C_0
+[2023.12.02-09.25.28:234][717]LogBlueprintUserMessages: [Weap_AK47_C_2] :( 28:234 ) - Новый владелец
+[2023.12.02-09.25.28:237][717]LogBlueprintUserMessages: [Weap_Deagle_C_2] :( 28:237 ) - Новый владелец
+[2023.12.02-09.25.28:243][717]LogBlueprintUserMessages: [Weap_KnifeCombat_C_2] :( 28:243 ) - Новый владелец
+[2023.12.02-09.25.28:244][717]LogBlueprintUserMessages: [Weap_AK47_C_2] :( 28:244 ) - OnSelectedWeapon
+[2023.12.02-09.25.28:247][717]LogNet: Join succeeded: 257
+[2023.12.02-09.25.28:288][719]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Red_Male_01_C /Game/Maps/Testing.Testing:PersistentLevel.CW_Character_C_1.Red_Male_01_C_0 NOT Supported.
+[2023.12.02-09.25.28:322][720]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Red_Male_01_C /Game/Maps/Testing.Testing:PersistentLevel.CW_Character_C_1.Red_Male_01_C_0 NOT Supported.
+[2023.12.02-09.25.30:599][788]LogBlueprintUserMessages: [Weap_AK47_C_2] :( 30:599 ) - OnCaseWeapon
+[2023.12.02-09.25.30:599][788]LogBlueprintUserMessages: [Weap_Deagle_C_2] :( 30:599 ) - OnSelectedWeapon
+[2023.12.02-09.25.30:701][791]LogBlueprintUserMessages: [Weap_Deagle_C_2] :( 30:701 ) - OnCaseWeapon
+[2023.12.02-09.25.30:701][791]LogBlueprintUserMessages: [Weap_KnifeCombat_C_2] :( 30:701 ) - OnSelectedWeapon
+[2023.12.02-09.25.30:903][797]LogBlueprintUserMessages: [Weap_KnifeCombat_C_2] :( 30:903 ) - OnCaseWeapon
+[2023.12.02-09.25.30:903][797]LogBlueprintUserMessages: [Weap_AK47_C_2] :( 30:903 ) - OnSelectedWeapon
+[2023.12.02-09.25.30:969][799]LogBlueprintUserMessages: [Weap_AK47_C_2] :( 30:969 ) - OnCaseWeapon
+[2023.12.02-09.25.30:970][799]LogBlueprintUserMessages: [Weap_Deagle_C_2] :( 30:970 ) - OnSelectedWeapon
+[2023.12.02-09.25.31:037][801]LogBlueprintUserMessages: [Weap_Deagle_C_2] :( 31:37 ) - OnCaseWeapon
+[2023.12.02-09.25.31:037][801]LogBlueprintUserMessages: [Weap_KnifeCombat_C_2] :( 31:37 ) - OnSelectedWeapon
+[2023.12.02-09.25.31:437][813]LogBlueprintUserMessages: [Weap_KnifeCombat_C_2] :( 31:437 ) - OnCaseWeapon
+[2023.12.02-09.25.31:437][813]LogBlueprintUserMessages: [Weap_AK47_C_2] :( 31:437 ) - OnSelectedWeapon
+[2023.12.02-09.25.55:625][539]LogBlueprintUserMessages: [Weap_AK47_C_2] :( 55:625 ) - OnCaseWeapon
+[2023.12.02-09.25.55:625][539]LogBlueprintUserMessages: [Weap_Deagle_C_2] :( 55:625 ) - OnSelectedWeapon
+[2023.12.02-09.25.56:965][579]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2023.12.02-09.25.56:965][579]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60896, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: CW_PlayerController_C_1, Owner: CW_PlayerController_C_1, UniqueId: INVALID
+[2023.12.02-09.25.56:967][579]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:60896, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: CW_PlayerController_C_1, Owner: CW_PlayerController_C_1, UniqueId: INVALID, Channels: 23, Time: 2023.12.02-09.25.56
+[2023.12.02-09.25.56:968][579]LogNet: UNetConnection::SendCloseReason:
+[2023.12.02-09.25.56:969][579]LogNet:  - Result=ControlChannelClose, ErrorContext="ControlChannelClose"
+[2023.12.02-09.25.56:970][579]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:60896, Name: IpConnection_1, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: CW_PlayerController_C_1, Owner: CW_PlayerController_C_1, UniqueId: INVALID
+[2023.12.02-09.26.34:282][687]LogDerivedDataCache: C:/Users/range/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:01:56.837 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 61090 files in 60766 folders with total size 4591 MiB.
+[2023.12.02-09.26.58:992][417]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61446
+[2023.12.02-09.26.58:992][417]LogHandshake: SendConnectChallenge. Timestamp: 248.390121, Cookie: 080145029118178193104237193202037014018227243090032155242247
+[2023.12.02-09.26.59:025][418]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:61446
+[2023.12.02-09.26.59:025][418]LogHandshake: SendChallengeAck. InCookie: 080145029118178193104237193202037014018227243090032155242247
+[2023.12.02-09.26.59:027][418]LogNet: Server accepting post-challenge connection from: 127.0.0.1:61446
+[2023.12.02-09.26.59:027][418]LogNet: IpConnection_2 setting maximum channels to: 32767
+[2023.12.02-09.26.59:028][418]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.12.02-09.26.59:030][418]LogNet: NotifyAcceptedConnection: Name: Testing, TimeStamp: 12/02/23 12:26:59, [UNetConnection] RemoteAddr: 127.0.0.1:61446, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.12.02-09.26.59:031][418]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:61446, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.12.02-09.26.59:032][418]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Testing.Testing: Accepted
+[2023.12.02-09.26.59:037][418]LogNet: Remote platform little endian=1
+[2023.12.02-09.26.59:038][418]LogNet: This platform little endian=1
+[2023.12.02-09.26.59:059][419]LogNet: Login request:  userId: UNKNOWN platform: None
+[2023.12.02-09.26.59:093][420]LogNet: Client netspeed is 100000
+[2023.12.02-09.26.59:159][422]LogNet: Join request: /Game/Maps/Testing?SplitscreenCount=1
+[2023.12.02-09.26.59:160][422]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PlayerStarts' of length 0 in '/Game/Blueprints/Online/CW_GameMode.CW_GameMode_C:GetPlayerStart'!
+[2023.12.02-09.26.59:161][422]LogScript: Warning: Script Msg called by: CW_GameMode_C /Game/Maps/Testing.Testing:PersistentLevel.CW_GameMode_C_0
+[2023.12.02-09.26.59:163][422]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PlayerStarts' of length 0 in '/Game/Blueprints/Online/CW_GameMode.CW_GameMode_C:GetPlayerStart'!
+[2023.12.02-09.26.59:164][422]LogScript: Warning: Script Msg called by: CW_GameMode_C /Game/Maps/Testing.Testing:PersistentLevel.CW_GameMode_C_0
+[2023.12.02-09.26.59:165][422]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PlayerStarts' of length 0 in '/Game/Blueprints/Online/CW_GameMode.CW_GameMode_C:GetPlayerStart'!
+[2023.12.02-09.26.59:166][422]LogScript: Warning: Script Msg called by: CW_GameMode_C /Game/Maps/Testing.Testing:PersistentLevel.CW_GameMode_C_0
+[2023.12.02-09.26.59:169][422]LogBlueprintUserMessages: [Weap_AK47_C_3] :( 59:169 ) - Новый владелец
+[2023.12.02-09.26.59:170][422]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 59:170 ) - Новый владелец
+[2023.12.02-09.26.59:172][422]LogBlueprintUserMessages: [Weap_KnifeCombat_C_3] :( 59:172 ) - Новый владелец
+[2023.12.02-09.26.59:172][422]LogBlueprintUserMessages: [Weap_AK47_C_3] :( 59:172 ) - OnSelectedWeapon
+[2023.12.02-09.26.59:173][422]LogNet: Join succeeded: 258
+[2023.12.02-09.26.59:226][424]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Red_Male_01_C /Game/Maps/Testing.Testing:PersistentLevel.CW_Character_C_2.Red_Male_01_C_0 NOT Supported.
+[2023.12.02-09.26.59:261][425]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Red_Male_01_C /Game/Maps/Testing.Testing:PersistentLevel.CW_Character_C_2.Red_Male_01_C_0 NOT Supported.
+[2023.12.02-09.27.04:172][573]LogBlueprintUserMessages: [Weap_AK47_C_3] :( 4:172 ) - OnCaseWeapon
+[2023.12.02-09.27.04:172][573]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 4:172 ) - OnSelectedWeapon
+[2023.12.02-09.27.05:664][618]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 5:664 ) - OnCaseWeapon
+[2023.12.02-09.27.05:664][618]LogBlueprintUserMessages: [Weap_AK47_C_3] :( 5:664 ) - OnSelectedWeapon
+[2023.12.02-09.27.06:525][644]LogBlueprintUserMessages: [Weap_AK47_C_3] :( 6:525 ) - OnCaseWeapon
+[2023.12.02-09.27.06:525][644]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 6:525 ) - OnSelectedWeapon
+[2023.12.02-09.27.07:024][659]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 7:24 ) - OnCaseWeapon
+[2023.12.02-09.27.07:024][659]LogBlueprintUserMessages: [Weap_AK47_C_3] :( 7:24 ) - OnSelectedWeapon
+[2023.12.02-09.27.07:489][673]LogBlueprintUserMessages: [Weap_AK47_C_3] :( 7:489 ) - OnCaseWeapon
+[2023.12.02-09.27.07:490][673]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 7:490 ) - OnSelectedWeapon
+[2023.12.02-09.27.17:922][988]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 17:922 ) - OnCaseWeapon
+[2023.12.02-09.27.17:922][988]LogBlueprintUserMessages: [Weap_AK47_C_3] :( 17:922 ) - OnSelectedWeapon
+[2023.12.02-09.27.32:396][422]LogBlueprintUserMessages: [Weap_AK47_C_3] :( 32:396 ) - OnCaseWeapon
+[2023.12.02-09.27.32:396][422]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 32:396 ) - OnSelectedWeapon
+[2023.12.02-09.27.52:937][ 43]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 52:937 ) - OnCaseWeapon
+[2023.12.02-09.27.52:937][ 43]LogBlueprintUserMessages: [Weap_AK47_C_3] :( 52:937 ) - OnSelectedWeapon
+[2023.12.02-09.27.54:262][ 83]LogBlueprintUserMessages: [Weap_AK47_C_3] :( 54:262 ) - Владелец не найден
+[2023.12.02-09.27.54:263][ 83]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 54:263 ) - OnSelectedWeapon
+[2023.12.02-09.27.56:052][137]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 56:52 ) - OnCaseWeapon
+[2023.12.02-09.27.56:052][137]LogBlueprintUserMessages: [Weap_KnifeCombat_C_3] :( 56:52 ) - OnSelectedWeapon
+[2023.12.02-09.27.56:950][164]LogBlueprintUserMessages: [Weap_KnifeCombat_C_3] :( 56:950 ) - OnCaseWeapon
+[2023.12.02-09.27.56:950][164]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 56:950 ) - OnSelectedWeapon
+[2023.12.02-09.27.58:555][212]LogBlueprintUserMessages: [Weap_Deagle_C_3] :( 58:555 ) - Владелец не найден
+[2023.12.02-09.27.58:556][212]LogBlueprintUserMessages: [Weap_KnifeCombat_C_3] :( 58:556 ) - OnSelectedWeapon
+[2023.12.02-09.28.07:193][472]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2023.12.02-09.28.07:193][472]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61446, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: CW_PlayerController_C_2, Owner: CW_PlayerController_C_2, UniqueId: INVALID
+[2023.12.02-09.28.07:196][472]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:61446, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: CW_PlayerController_C_2, Owner: CW_PlayerController_C_2, UniqueId: INVALID, Channels: 23, Time: 2023.12.02-09.28.07
+[2023.12.02-09.28.07:197][472]LogNet: UNetConnection::SendCloseReason:
+[2023.12.02-09.28.07:198][472]LogNet:  - Result=ControlChannelClose, ErrorContext="ControlChannelClose"
+[2023.12.02-09.28.07:198][472]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:61446, Name: IpConnection_2, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: CW_PlayerController_C_2, Owner: CW_PlayerController_C_2, UniqueId: INVALID
+[2023.12.02-09.28.17:866][790]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62973
+[2023.12.02-09.28.17:866][790]LogHandshake: SendConnectChallenge. Timestamp: 327.264087, Cookie: 098231244162224029170057171045009028232004049209185228088080
+[2023.12.02-09.28.17:899][791]LogNet: NotifyAcceptingConnection accepted from: 127.0.0.1:62973
+[2023.12.02-09.28.17:899][791]LogHandshake: SendChallengeAck. InCookie: 098231244162224029170057171045009028232004049209185228088080
+[2023.12.02-09.28.17:902][791]LogNet: Server accepting post-challenge connection from: 127.0.0.1:62973
+[2023.12.02-09.28.17:903][791]LogNet: IpConnection_3 setting maximum channels to: 32767
+[2023.12.02-09.28.17:904][791]PacketHandlerLog: Loaded PacketHandler component: Engine.EngineHandlerComponentFactory (StatelessConnectHandlerComponent)
+[2023.12.02-09.28.17:906][791]LogNet: NotifyAcceptedConnection: Name: Testing, TimeStamp: 12/02/23 12:28:17, [UNetConnection] RemoteAddr: 127.0.0.1:62973, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.12.02-09.28.17:906][791]LogNet: AddClientConnection: Added client connection: [UNetConnection] RemoteAddr: 127.0.0.1:62973, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: NULL, Owner: NULL, UniqueId: INVALID
+[2023.12.02-09.28.17:932][792]LogNet: NotifyAcceptingChannel Control 0 server World /Game/Maps/Testing.Testing: Accepted
+[2023.12.02-09.28.17:932][792]LogNet: Remote platform little endian=1
+[2023.12.02-09.28.17:936][792]LogNet: This platform little endian=1
+[2023.12.02-09.28.17:966][793]LogNet: Login request:  userId: UNKNOWN platform: None
+[2023.12.02-09.28.17:999][794]LogNet: Client netspeed is 100000
+[2023.12.02-09.28.18:032][795]LogNet: Join request: /Game/Maps/Testing?SplitscreenCount=1
+[2023.12.02-09.28.18:033][795]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PlayerStarts' of length 0 in '/Game/Blueprints/Online/CW_GameMode.CW_GameMode_C:GetPlayerStart'!
+[2023.12.02-09.28.18:035][795]LogScript: Warning: Script Msg called by: CW_GameMode_C /Game/Maps/Testing.Testing:PersistentLevel.CW_GameMode_C_0
+[2023.12.02-09.28.18:036][795]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PlayerStarts' of length 0 in '/Game/Blueprints/Online/CW_GameMode.CW_GameMode_C:GetPlayerStart'!
+[2023.12.02-09.28.18:038][795]LogScript: Warning: Script Msg called by: CW_GameMode_C /Game/Maps/Testing.Testing:PersistentLevel.CW_GameMode_C_0
+[2023.12.02-09.28.18:039][795]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'PlayerStarts' of length 0 in '/Game/Blueprints/Online/CW_GameMode.CW_GameMode_C:GetPlayerStart'!
+[2023.12.02-09.28.18:041][795]LogScript: Warning: Script Msg called by: CW_GameMode_C /Game/Maps/Testing.Testing:PersistentLevel.CW_GameMode_C_0
+[2023.12.02-09.28.18:045][795]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 18:45 ) - Новый владелец
+[2023.12.02-09.28.18:047][795]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 18:47 ) - Новый владелец
+[2023.12.02-09.28.18:048][795]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 18:48 ) - Новый владелец
+[2023.12.02-09.28.18:048][795]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 18:48 ) - OnSelectedWeapon
+[2023.12.02-09.28.18:049][795]LogNet: Join succeeded: 259
+[2023.12.02-09.28.18:068][796]LogNetPackageMap: Warning: FNetGUIDCache::SupportsObject: Red_Male_01_C /Game/Maps/Testing.Testing:PersistentLevel.CW_Character_C_3.Red_Male_01_C_0 NOT Supported.
+[2023.12.02-09.28.19:560][841]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 19:560 ) - Владелец не найден
+[2023.12.02-09.28.19:560][841]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 19:560 ) - OnSelectedWeapon
+[2023.12.02-09.28.21:948][913]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 21:948 ) - Владелец не найден
+[2023.12.02-09.28.21:948][913]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 21:948 ) - OnSelectedWeapon
+[2023.12.02-09.28.25:302][ 14]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 25:302 ) - Новый владелец
+[2023.12.02-09.28.26:325][ 45]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 26:325 ) - OnCaseWeapon
+[2023.12.02-09.28.26:325][ 45]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 26:325 ) - OnSelectedWeapon
+[2023.12.02-09.28.27:573][ 82]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 27:573 ) - OnCaseWeapon
+[2023.12.02-09.28.27:574][ 82]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 27:573 ) - OnSelectedWeapon
+[2023.12.02-09.28.28:382][106]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 28:382 ) - OnCaseWeapon
+[2023.12.02-09.28.28:382][106]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 28:382 ) - OnSelectedWeapon
+[2023.12.02-09.28.31:942][212]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 31:942 ) - OnCaseWeapon
+[2023.12.02-09.28.31:942][212]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 31:942 ) - OnSelectedWeapon
+[2023.12.02-09.28.32:111][217]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 32:111 ) - OnCaseWeapon
+[2023.12.02-09.28.32:111][217]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 32:111 ) - OnSelectedWeapon
+[2023.12.02-09.28.33:691][264]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 33:691 ) - Владелец не найден
+[2023.12.02-09.28.33:691][264]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 33:691 ) - OnSelectedWeapon
+[2023.12.02-09.28.36:505][349]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 36:505 ) - Новый владелец
+[2023.12.02-09.28.36:571][351]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 36:571 ) - Новый владелец
+[2023.12.02-09.28.39:097][427]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 39:97 ) - OnCaseWeapon
+[2023.12.02-09.28.39:097][427]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 39:97 ) - OnSelectedWeapon
+[2023.12.02-09.28.39:197][430]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 39:197 ) - OnCaseWeapon
+[2023.12.02-09.28.39:198][430]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 39:198 ) - OnSelectedWeapon
+[2023.12.02-09.28.41:326][494]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 41:326 ) - OnCaseWeapon
+[2023.12.02-09.28.41:326][494]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 41:326 ) - OnSelectedWeapon
+[2023.12.02-09.28.41:903][511]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 41:903 ) - OnCaseWeapon
+[2023.12.02-09.28.41:903][511]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 41:903 ) - OnSelectedWeapon
+[2023.12.02-09.28.43:801][568]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 43:801 ) - OnCaseWeapon
+[2023.12.02-09.28.43:802][568]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 43:802 ) - OnSelectedWeapon
+[2023.12.02-09.28.45:193][610]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 45:193 ) - Владелец не найден
+[2023.12.02-09.28.45:194][610]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 45:194 ) - OnSelectedWeapon
+[2023.12.02-09.28.46:718][656]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 46:718 ) - OnCaseWeapon
+[2023.12.02-09.28.46:718][656]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 46:718 ) - OnSelectedWeapon
+[2023.12.02-09.28.47:783][688]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 47:783 ) - Новый владелец
+[2023.12.02-09.28.47:849][690]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 47:849 ) - OnCaseWeapon
+[2023.12.02-09.28.47:849][690]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 47:849 ) - OnSelectedWeapon
+[2023.12.02-09.28.47:949][693]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 47:949 ) - OnCaseWeapon
+[2023.12.02-09.28.47:949][693]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 47:949 ) - OnSelectedWeapon
+[2023.12.02-09.28.48:048][696]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 48:48 ) - OnCaseWeapon
+[2023.12.02-09.28.48:048][696]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 48:48 ) - OnSelectedWeapon
+[2023.12.02-09.28.50:308][764]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 50:308 ) - OnCaseWeapon
+[2023.12.02-09.28.50:309][764]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 50:309 ) - OnSelectedWeapon
+[2023.12.02-09.28.50:410][767]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 50:410 ) - OnCaseWeapon
+[2023.12.02-09.28.50:410][767]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 50:410 ) - OnSelectedWeapon
+[2023.12.02-09.28.50:579][772]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 50:579 ) - OnCaseWeapon
+[2023.12.02-09.28.50:579][772]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 50:579 ) - OnSelectedWeapon
+[2023.12.02-09.28.50:745][777]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 50:745 ) - OnCaseWeapon
+[2023.12.02-09.28.50:745][777]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 50:745 ) - OnSelectedWeapon
+[2023.12.02-09.28.51:349][795]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 51:349 ) - OnCaseWeapon
+[2023.12.02-09.28.51:349][795]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 51:349 ) - OnSelectedWeapon
+[2023.12.02-09.28.51:450][798]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 51:450 ) - OnCaseWeapon
+[2023.12.02-09.28.51:450][798]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 51:450 ) - OnSelectedWeapon
+[2023.12.02-09.28.51:483][799]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 51:483 ) - OnCaseWeapon
+[2023.12.02-09.28.51:483][799]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 51:483 ) - OnSelectedWeapon
+[2023.12.02-09.28.51:686][805]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 51:686 ) - OnCaseWeapon
+[2023.12.02-09.28.51:686][805]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 51:686 ) - OnSelectedWeapon
+[2023.12.02-09.28.51:718][806]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 51:718 ) - OnCaseWeapon
+[2023.12.02-09.28.51:718][806]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 51:718 ) - OnSelectedWeapon
+[2023.12.02-09.28.51:852][810]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 51:852 ) - OnCaseWeapon
+[2023.12.02-09.28.51:852][810]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 51:852 ) - OnSelectedWeapon
+[2023.12.02-09.28.51:985][814]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 51:985 ) - OnCaseWeapon
+[2023.12.02-09.28.51:985][814]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 51:985 ) - OnSelectedWeapon
+[2023.12.02-09.28.52:053][816]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 52:53 ) - OnCaseWeapon
+[2023.12.02-09.28.52:053][816]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 52:53 ) - OnSelectedWeapon
+[2023.12.02-09.28.52:154][819]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 52:154 ) - OnCaseWeapon
+[2023.12.02-09.28.52:154][819]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 52:154 ) - OnSelectedWeapon
+[2023.12.02-09.28.52:287][823]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 52:287 ) - OnCaseWeapon
+[2023.12.02-09.28.52:287][823]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 52:287 ) - OnSelectedWeapon
+[2023.12.02-09.28.52:319][824]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 52:319 ) - OnCaseWeapon
+[2023.12.02-09.28.52:319][824]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 52:319 ) - OnSelectedWeapon
+[2023.12.02-09.28.52:419][827]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 52:419 ) - OnCaseWeapon
+[2023.12.02-09.28.52:419][827]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 52:419 ) - OnSelectedWeapon
+[2023.12.02-09.28.52:553][831]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 52:553 ) - OnCaseWeapon
+[2023.12.02-09.28.52:553][831]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 52:553 ) - OnSelectedWeapon
+[2023.12.02-09.28.52:586][832]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 52:586 ) - OnCaseWeapon
+[2023.12.02-09.28.52:586][832]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 52:586 ) - OnSelectedWeapon
+[2023.12.02-09.28.52:686][835]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 52:686 ) - OnCaseWeapon
+[2023.12.02-09.28.52:686][835]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 52:686 ) - OnSelectedWeapon
+[2023.12.02-09.28.52:819][839]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 52:819 ) - OnCaseWeapon
+[2023.12.02-09.28.52:819][839]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 52:819 ) - OnSelectedWeapon
+[2023.12.02-09.28.52:852][840]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 52:852 ) - Владелец не найден
+[2023.12.02-09.28.52:853][840]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 52:853 ) - OnSelectedWeapon
+[2023.12.02-09.28.52:954][843]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 52:954 ) - OnCaseWeapon
+[2023.12.02-09.28.52:954][843]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 52:954 ) - OnSelectedWeapon
+[2023.12.02-09.28.53:156][849]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 53:156 ) - OnCaseWeapon
+[2023.12.02-09.28.53:157][849]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 53:157 ) - OnSelectedWeapon
+[2023.12.02-09.28.53:255][852]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 53:255 ) - OnCaseWeapon
+[2023.12.02-09.28.53:256][852]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 53:256 ) - OnSelectedWeapon
+[2023.12.02-09.28.53:421][857]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 53:421 ) - OnCaseWeapon
+[2023.12.02-09.28.53:421][857]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 53:421 ) - OnSelectedWeapon
+[2023.12.02-09.28.53:589][862]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 53:589 ) - OnCaseWeapon
+[2023.12.02-09.28.53:589][862]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 53:589 ) - OnSelectedWeapon
+[2023.12.02-09.28.53:755][867]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 53:755 ) - OnCaseWeapon
+[2023.12.02-09.28.53:755][867]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 53:755 ) - OnSelectedWeapon
+[2023.12.02-09.28.53:855][870]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 53:855 ) - Владелец не найден
+[2023.12.02-09.28.53:855][870]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 53:855 ) - OnSelectedWeapon
+[2023.12.02-09.28.56:705][956]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 56:705 ) - Новый владелец
+[2023.12.02-09.28.56:905][962]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 56:905 ) - OnCaseWeapon
+[2023.12.02-09.28.56:906][962]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 56:906 ) - OnSelectedWeapon
+[2023.12.02-09.28.57:240][972]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 57:240 ) - Владелец не найден
+[2023.12.02-09.28.57:240][972]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 57:240 ) - OnSelectedWeapon
+[2023.12.02-09.28.57:273][973]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 57:273 ) - Новый владелец
+[2023.12.02-09.28.58:641][ 14]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 58:641 ) - OnCaseWeapon
+[2023.12.02-09.28.58:641][ 14]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 58:641 ) - OnSelectedWeapon
+[2023.12.02-09.28.59:279][ 33]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 59:279 ) - Владелец не найден
+[2023.12.02-09.28.59:280][ 33]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 59:280 ) - OnSelectedWeapon
+[2023.12.02-09.29.01:310][ 94]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 1:310 ) - Новый владелец
+[2023.12.02-09.29.01:344][ 95]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 1:344 ) - OnCaseWeapon
+[2023.12.02-09.29.01:345][ 95]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 1:345 ) - OnSelectedWeapon
+[2023.12.02-09.29.01:542][101]LogBlueprintUserMessages: [Weap_AK47_C_0] :( 1:542 ) - Владелец не найден
+[2023.12.02-09.29.01:542][101]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 1:542 ) - OnSelectedWeapon
+[2023.12.02-09.29.02:736][137]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 2:736 ) - Новый владелец
+[2023.12.02-09.29.02:804][139]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 2:804 ) - Новый владелец
+[2023.12.02-09.29.02:869][141]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 2:869 ) - OnCaseWeapon
+[2023.12.02-09.29.02:869][141]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 2:869 ) - OnSelectedWeapon
+[2023.12.02-09.29.02:871][141]LogBlueprintUserMessages: [Weap_AK47_C_4] :( 2:871 ) - Владелец не найден
+[2023.12.02-09.29.02:872][141]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 2:871 ) - OnSelectedWeapon
+[2023.12.02-09.29.03:036][146]LogBlueprintUserMessages: [Weap_Deagle_C_4] :( 3:36 ) - Владелец не найден
+[2023.12.02-09.29.03:036][146]LogBlueprintUserMessages: [Weap_KnifeCombat_C_4] :( 3:36 ) - OnSelectedWeapon
+[2023.12.02-09.29.11:426][399]LogNet: UChannel::ReceivedSequencedBunch: Bunch.bClose == true. ChIndex == 0. Calling ConditionalCleanUp.
+[2023.12.02-09.29.11:426][399]LogNet: UChannel::CleanUp: ChIndex == 0. Closing connection. [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62973, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: CW_PlayerController_C_3, Owner: CW_PlayerController_C_3, UniqueId: INVALID
+[2023.12.02-09.29.11:429][399]LogNet: UNetConnection::Close: [UNetConnection] RemoteAddr: 127.0.0.1:62973, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: CW_PlayerController_C_3, Owner: CW_PlayerController_C_3, UniqueId: INVALID, Channels: 26, Time: 2023.12.02-09.29.11
+[2023.12.02-09.29.11:430][399]LogNet: UNetConnection::SendCloseReason:
+[2023.12.02-09.29.11:431][399]LogNet:  - Result=ControlChannelClose, ErrorContext="ControlChannelClose"
+[2023.12.02-09.29.11:432][399]LogNet: UChannel::Close: Sending CloseBunch. ChIndex == 0. Name: [UChannel] ChIndex: 0, Closing: 0 [UNetConnection] RemoteAddr: 127.0.0.1:62973, Name: IpConnection_3, Driver: GameNetDriver IpNetDriver_0, IsServer: YES, PC: CW_PlayerController_C_3, Owner: CW_PlayerController_C_3, UniqueId: INVALID
+[2023.12.02-09.30.06:853][ 63]LogCore: Engine exit requested (reason: ConsoleCtrl RequestExit)

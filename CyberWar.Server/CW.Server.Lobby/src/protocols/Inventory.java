@@ -17,13 +17,13 @@ import java.util.List;
  */
 public class Inventory {
 	public static HashMap<String, Object> getInventory(Session session) {
-		HashMap<String, Object> response = new HashMap<String, Object>();
+		HashMap<String, Object> response = new HashMap<>();
 		response.put("success", true);
 		response.put("ecode", 0);
 		List<HashMap<String, Object>> items = new ArrayList<>();
 
 		String query = "SELECT count(*) FROM inventory WHERE p_id=?";
-		try (PreparedStatement statement = Database.getConnection().prepareStatement(query)) {
+		try (PreparedStatement statement = Database.getConnection().prepareStatement(query, ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_READ_ONLY)) {
 			System.out.println("PlayerId: " + session.PlayerId);
 			statement.setInt(1, session.PlayerId);
 			try (ResultSet rs = statement.executeQuery()) {
@@ -59,6 +59,7 @@ public class Inventory {
 		response.put("items", items);
 		return response;
 	}
+
 
 
 

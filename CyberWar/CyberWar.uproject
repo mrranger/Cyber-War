@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "5.4",
 	"Category": "",
 	"Description": "",
 	"Plugins": [
@@ -74,11 +74,6 @@
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/a8cf875efc8d4be3b2ab5f369241797c"
 		},
 		{
-			"Name": "LowEntryExtStdLib",
-			"Enabled": true,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/846c2ad08f164f45b0335ecebf85361e"
-		},
-		{
 			"Name": "OnlineSubsystemNull",
 			"Enabled": false
 		},
@@ -93,6 +88,11 @@
 		{
 			"Name": "OnlineFramework",
 			"Enabled": true
+		},
+		{
+			"Name": "LowEntryExtStdLib",
+			"Enabled": true,
+			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/846c2ad08f164f45b0335ecebf85361e"
 		},
 		{
 			"Name": "VaRest",
